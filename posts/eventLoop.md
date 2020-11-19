@@ -10,7 +10,7 @@
 
   **消息队列** 是用来存放宏任务的队列,  比如定时器时间到了,  定时间内传入的方法引用会存到该队列,  ajax回调之后的执行方法也会存到该队列. 
 
-<img src="./../images/eventloop/eventLoop.jpg">
+![Alt](https://raw.githubusercontent.com/leslie1943/blog/master/images/eventloop/eventLoop.jpg)
 
   
   一开始整个脚本作为一个宏任务执行. 执行过程中同步代码直接执行, 宏任务等待时间到达或者成功后, 将方法的回调放入宏任务队列中, 微任务进入微任务队列. 
@@ -36,3 +36,79 @@
   所以它的响应速度相比宏任务会更快, 因为无需等待 UI 渲染. 
 
   微任务包含: Promise.then, MutaionObserver, process.nextTick(Node.js 环境)等
+
+
+#### 举个例子
+```js
+// 异步模式: 不会等等这个任务的结束才开始下一个任务,开启过后立即往后执行下一个任务
+// 后续逻辑一般会通过回调函数的方式定义
+
+const { info } = console
+
+info('global begin')
+
+setTimeout(function timer1() {
+  info('timer1 invoke')
+}, 1800);
+
+setTimeout(function timer2() {
+  info('timer2 invoke')
+
+  setTimeout(function inner() {
+    info('inner invoke')
+  }, 1000)
+}, 1000);
+
+info('global end')
+
+
+// ------------ 代码解析 ------------
+// 名词: Call stack(调用栈), EventLoop(事件循环), Queue(消息队列)
+/**
+ * 🚀🚀🚀 调用整体代码,在调用栈压入一个匿名函数
+ * 执行: info('global begin') >> 打印 >> 弹出调用栈
+ * 将setTimeout(timer1)压入调用栈,由于setTimeout内部是异步调用, 所以【WebAPIs】为timer1开启一个倒计时器(放到一边)
+ * timer1的计时器开启后,弹出调用栈, 代码继续往下执行
+ * 将setTimeout(timer2)压入调用栈 【WebAPIs】为timer2开启一个倒计时器(放到一边)
+ * timer2的计时器开启后,弹出调用栈, 代码继续往下执行
+ * 执行: info('global end') >> 打印 >> 弹出调用栈
+ * 清空调用栈
+ *
+ * 🚥🚥🚥 Event loop负责监听调用栈和消息队列
+ * 一旦调用栈所有的任务都结束了
+ * 事件循环(event loop)从消息队列中取出第一个回调函数压入调用栈
+ * 此时消息队列(Queue)是空的
+ *
+ * 🚧🚧🚧 此时,timer1()和timer2(),任意一个结束后,将被放入消息队列中(Queue)
+ * 从倒计时间可以得知,
+ * timer2()先执行倒计时结束,将会被放入到消息队列的第1个
+ * timer1()执行结束后将放入消息队列的第2位
+ *
+ * 一旦消息队列发生了变化, event loop就会监听到,就会把消息队列(Queue)中的第一个(timer2)压入调用栈
+ * 执行timer2() => 执行同步代码 => 弹出调用栈
+ * 执行异步代码,放入WebAPIs中 => 开启inner倒计时器=>弹出调用栈
+ * 执行timer1() => 执行 => 弹出调用栈
+ *
+ * inner倒计时器结束=> 进入消息队列=> 压入调用栈=>执行=>弹出调用栈
+ *
+ * 直到调用栈和消息队列都没有可执行的任务了
+ *
+ * 🚀🚀🚀 调用栈 =>  正在执行的工作表
+ * 🚥🚥🚥 消息队列 =>  待办的工作表
+ *
+ * JS引擎先做完调用栈中的任务=>从消息队列中再取一个任务, 以此循环,直到调用栈和消息队列都没有可执行的任务了
+ *
+ * JS是单线程的,但浏览器不是单线程的
+ *
+ * 执行代码的线程是单线程
+ *
+ * 所以我们不会让JS线程去等待一些任务的结束
+ *
+ * WebAPIs,是单独的线程执行的
+ *
+ * 同步模式/异步模式:不是写代码的方式,而是指的运行环境提供的API是以哪种模式工作的
+ *
+ * 异步模式API下达了这个任务开启的指令就继续往下执行,代码不会等待(setTimeout)结束,而是直接继续执行
+ *
+ */
+```
