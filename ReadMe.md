@@ -34,5 +34,9 @@
 
 [JavaScript中的this](https://github.com/leslie1943/blog/issues/14).
 
+[JavaScript中的闭包](https://github.com/leslie1943/blog/issues/15).
+
+[JavaScript 防抖(debounce)和节流(throttle)](https://github.com/leslie1943/blog/issues/16).
+
 ## 🚀 JavaScript 异步编程
 [异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13).
