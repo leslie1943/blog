@@ -32,6 +32,7 @@
 
 [context 作用域](https://github.com/leslie1943/blog/issues/12).
 
+[JavaScript中的this](https://github.com/leslie1943/blog/issues/14).
 
 ## 🚀 JavaScript 异步编程
 [异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13).
