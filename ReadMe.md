@@ -31,3 +31,7 @@
 [call vs apply](https://github.com/leslie1943/blog/issues/11).
 
 [context 作用域](https://github.com/leslie1943/blog/issues/12).
+
+
+## 🚀 JavaScript 异步编程
+[异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13).
