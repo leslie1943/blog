@@ -38,8 +38,16 @@
 
 [JavaScript 防抖(debounce)和节流(throttle)](https://github.com/leslie1943/blog/issues/16).
 
+[JavaScript: 函数式编程-柯里化](https://github.com/leslie1943/blog/issues/15).
+
+
 ## 🚀 JavaScript 异步编程
 [异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13).
+
+[异步编程: async / await 基础解读](https://github.com/leslie1943/blog/issues/38).
+
+[异步编程: async / await 如果右边方法执行出错怎么办](https://github.com/leslie1943/blog/issues/37).
+
 
 ## 🚀 HTTP
 [http TCP连接的三次握手/四次挥手](https://github.com/leslie1943/blog/issues/25)
@@ -84,7 +92,6 @@
 
 [网络安全: 跨站攻击脚本-XSS](https://github.com/leslie1943/blog/issues/35)
 
-
-
-
 ## 🚀 CSS
+
+[CSS: 实现水平垂直居中的几种方案](https://github.com/leslie1943/blog/issues/36)
