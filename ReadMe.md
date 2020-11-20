@@ -38,7 +38,7 @@
 
 [JavaScript 防抖(debounce)和节流(throttle)](https://github.com/leslie1943/blog/issues/16).
 
-[JavaScript: 函数式编程-柯里化](https://github.com/leslie1943/blog/issues/15).
+[JavaScript: 函数式编程-柯里化](https://github.com/leslie1943/blog/issues/39).
 
 
 ## 🚀 JavaScript 异步编程
