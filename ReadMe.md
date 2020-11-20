@@ -46,6 +46,7 @@
 
 [http 从输入URL到页面展示,中间发生了什么](https://github.com/leslie1943/blog/issues/26)
 
+[HTTP PUT/POST/PATCH的区别](https://github.com/leslie1943/blog/issues/29)
 
 
 ## 🚀 Webpack
@@ -70,3 +71,20 @@
 [网络安全: 什么是跨域](https://github.com/leslie1943/blog/issues/27)
 
 [网络安全: 如何解决跨域- CORS](https://github.com/leslie1943/blog/issues/28)
+
+[网络安全: 简单请求 simple-request 解决跨域](https://github.com/leslie1943/blog/issues/30)
+
+[网络安全: 非简单请求 not-simple-request 解决跨域](https://github.com/leslie1943/blog/issues/31)
+
+[网络安全: Node 正向代理](https://github.com/leslie1943/blog/issues/32)
+
+[网络安全: Nginx 反向代理](https://github.com/leslie1943/blog/issues/33)
+
+[网络安全: 跨站伪造请求-CSRF](https://github.com/leslie1943/blog/issues/34)
+
+[网络安全: 跨站攻击脚本-XSS](https://github.com/leslie1943/blog/issues/35)
+
+
+
+
+## 🚀 CSS
