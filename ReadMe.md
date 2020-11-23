@@ -120,5 +120,13 @@
 
 [Vue: use() vs component()](https://github.com/leslie1943/blog/issues/50)
 
-[Vue: hash模式 vs history模式](https://github.com/leslie1943/blog/issues/51)
+[Vue: hash模式 vs history模式](https://github.com/leslie1943/blog/issues/54)
+
+## 🚀 React
+[React: 受控组件和非受控组件](https://github.com/leslie1943/blog/issues/51)
+
+[React: 高阶组件](https://github.com/leslie1943/blog/issues/52)
+
+[React: 循环时加key的作用](https://github.com/leslie1943/blog/issues/53)
+
 
