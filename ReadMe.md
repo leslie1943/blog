@@ -103,7 +103,7 @@
 [性能优化: 24 条建议(下)](https://github.com/leslie1943/blog/issues/41)
 
 
-## Vue
+## 🚀 Vue
 [computed vs watch](https://github.com/leslie1943/blog/issues/43)
 
 [组件间的传值方式](https://github.com/leslie1943/blog/issues/44)
