@@ -98,8 +98,27 @@
 [CSS: 实现水平垂直居中的几种方案](https://github.com/leslie1943/blog/issues/36)
 
 ## 🚀 性能优化
-
 [性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/40)
 
 [性能优化: 24 条建议(下)](https://github.com/leslie1943/blog/issues/41)
+
+
+## Vue
+[computed vs watch](https://github.com/leslie1943/blog/issues/43)
+
+[组件间的传值方式](https://github.com/leslie1943/blog/issues/44)
+
+[this.$nextTick](https://github.com/leslie1943/blog/issues/45)
+
+[Vue: watch 的用法](https://github.com/leslie1943/blog/issues/46)
+
+[Vue: 双向绑定原理](https://github.com/leslie1943/blog/issues/47)
+
+[Vue: 常用的修饰符](https://github.com/leslie1943/blog/issues/48)
+
+[Vue: data为什么是函数](https://github.com/leslie1943/blog/issues/49)
+
+[Vue: use() vs component()](https://github.com/leslie1943/blog/issues/50)
+
+[Vue: hash模式 vs history模式](https://github.com/leslie1943/blog/issues/51)
 
