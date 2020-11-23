@@ -101,5 +101,5 @@
 
 [性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/40)
 
-[性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/41)
+[性能优化: 24 条建议(下)](https://github.com/leslie1943/blog/issues/41)
 
