@@ -56,6 +56,8 @@
 
 [HTTP PUT/POST/PATCH的区别](https://github.com/leslie1943/blog/issues/29)
 
+[HTTP CDN原理](https://github.com/leslie1943/blog/issues/42)
+
 
 ## 🚀 Webpack
 [webpack 热更新原理](https://github.com/leslie1943/blog/issues/17)
@@ -93,5 +95,11 @@
 [网络安全: 跨站攻击脚本-XSS](https://github.com/leslie1943/blog/issues/35)
 
 ## 🚀 CSS
-
 [CSS: 实现水平垂直居中的几种方案](https://github.com/leslie1943/blog/issues/36)
+
+## 🚀 性能优化
+
+[性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/40)
+
+[性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/41)
+
