@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex layout</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: calc(100vw - 220px);
+            height: calc(100vh - 300px);
+            background: rgb(69, 70, 65);
+            display: flex;
+            /* justify-content:(x轴对齐) flex-start:从左开始 flex-end:从右开始 center:居中开始 */
+            /* align-items     (y轴对齐) flex-start: 从上排序 flex-end: 从下排序 center:居中开始 */
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="hello world">Hello World 🚀🚀</div>
+            <div class="hello vue">Hello Vue 🏳‍🌈🏳‍🌈</div>
+            <div class="hello green">Hello Vuex 🌈🌈</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
