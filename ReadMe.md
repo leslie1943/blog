@@ -122,6 +122,15 @@
 
 [Vue: hash模式 vs history模式](https://github.com/leslie1943/blog/issues/54)
 
+[Vue: keep alive的了解](https://github.com/leslie1943/blog/issues/55)
+
+[Vue: 一句话简答题](https://github.com/leslie1943/blog/issues/56)
+
+[Vue: Vue3中响应式数据原理](https://github.com/leslie1943/blog/issues/57)
+
+[Vue: Vue的性能如何优化](https://github.com/leslie1943/blog/issues/58)
+
+
 ## 🚀 React
 [React: 受控组件和非受控组件](https://github.com/leslie1943/blog/issues/51)
 
@@ -129,4 +138,6 @@
 
 [React: 循环时加key的作用](https://github.com/leslie1943/blog/issues/53)
 
+[React: JSX和React.createElement](https://github.com/leslie1943/blog/issues/59)
 
+[React: Redux是什么](https://github.com/leslie1943/blog/issues/60)
