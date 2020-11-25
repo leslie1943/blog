@@ -40,6 +40,9 @@
 
 [JavaScript: 函数式编程-柯里化](https://github.com/leslie1943/blog/issues/39).
 
+[JavaScript: 原型链的理解](https://github.com/leslie1943/blog/issues/68).
+
+
 
 ## 🚀 JavaScript 异步编程
 [异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13).
