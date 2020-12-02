@@ -153,7 +153,7 @@
 
 [React: Redux是什么](https://github.com/leslie1943/blog/issues/60)
 
-[React: 手动实现Redux](https://github.com/leslie1943/blog/issues/73)
+[React: 手动实现基础版Redux](https://github.com/leslie1943/blog/issues/73)
 
 [React: Hooks简介](https://github.com/leslie1943/blog/issues/61)
 

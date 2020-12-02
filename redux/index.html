@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="increment">+</button>
+    <span id="box">0</span>
+    <button id="decrement">-</button>
+    <script src="./myRedux.js"></script>
+    <script src="./middlewares/logger.js"></script>
+    <script src="./middlewares/thunk.js"></script>
+    <script>
+        // enhancer 函数 === >>> 实际上中间件是redux内置的enhancer
+        function enhancer(createStore) {
+            return function (reducer, preloadedState) {
+                var store = createStore(reducer, preloadedState)
+                // 增强 dispatch
+                var dispatch = store.dispatch
+                function _dispatch(action) {
+                    // 异步方法
+                    if (typeof action === 'function') {
+                        return action(dispatch) // 执行方法
+                    }
+                    // 同步方法
+                    dispatch(action)
+                }
+                return {
+                    ...store,
+                    dispatch: _dispatch
+                }
+            }
+        }
+        // reducer 函数
+        function counterReducer(state, action) {
+            switch (action.type) {
+                case 'increment':
+                    return state + 1
+                case 'decrement':
+                    return state - 1
+                default:
+                    return state
+            }
+        }
+
+        // 合并多个 reducers
+        var rootReducer = combineReducers({ counter: counterReducer })
+
+        // 创建store / 或者返回 enhancer处理后的增强版的 store
+        var store = createStore(rootReducer, { counter: 100 }, applyMiddleware(logger, thunk))
+        // console.info(store)
+
+        // 传递订阅函数,每次dispatch后会执行这个
+        store.subscribe(function () {
+            // 获取最新的state
+            document.getElementById('box').innerHTML = store.getState().counter
+        })
+
+        // action binder
+        var actions = bindActionCreators({
+            increment,
+            decrement
+        }, store.dispatch)
+
+        function increment() {
+            return { type: 'increment' }
+        }
+        function decrement() {
+            return { type: 'decrement' }
+        }
+
+        // 获取 + 按钮
+        document.getElementById('increment').onclick = function () {
+            // 触发 action, 让数值加1
+            // store.dispatch({ type: 'increment' })
+            // store.dispatch(function (dispatch) {
+            //     setTimeout(() => {
+            //         dispatch({ type: 'increment' })
+            //     }, 1000);
+            // })
+            // logger -> thunk -> reducer
+            // store.dispatch({ type: 'increment' })
+            actions.increment()
+        }
+        // 获取 - 按钮
+        document.getElementById('decrement').onclick = function () {
+            // 触发 action, 让数值减1
+            // store.dispatch({ type: 'decrement' })
+            actions.decrement()
+        }
+    </script>
+</body>
+
+</html>
