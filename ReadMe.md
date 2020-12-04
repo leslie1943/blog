@@ -110,6 +110,9 @@
 
 [CSS: 次行缩进](https://github.com/leslie1943/blog/issues/67)
 
+[CSS: Flex布局](https://github.com/leslie1943/blog/issues/76)
+
+
 ## 🚀 性能优化
 [性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/40)
 
@@ -158,6 +161,8 @@
 [React: Hooks简介](https://github.com/leslie1943/blog/issues/61)
 
 [React: React中的refs作用是什么](https://github.com/leslie1943/blog/issues/74)
+
+[React: constructor中的super](https://github.com/leslie1943/blog/issues/74)
 
 
 ## 🚀 TypeScript
