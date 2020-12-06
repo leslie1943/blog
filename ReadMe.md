@@ -162,12 +162,19 @@
 
 [React: React中的refs作用是什么](https://github.com/leslie1943/blog/issues/74)
 
-[React: constructor中的super](https://github.com/leslie1943/blog/issues/74)
+[React: constructor中的super](https://github.com/leslie1943/blog/issues/75)
+
+[React: MobX 异步方法修改State的3种方式](https://github.com/leslie1943/blog/issues/77)
 
 
 ## 🚀 TypeScript
 [TypeScript: 数据类型/type/interface](https://github.com/leslie1943/blog/issues/62)
 
 
-## API
+## 🚀 API
 [API: 浅谈Restful API](https://github.com/leslie1943/blog/issues/71)
+
+
+## 🚀 Other
+[babel: .babelrc vs babel.config.js](https://github.com/leslie1943/blog/issues/78)
+
