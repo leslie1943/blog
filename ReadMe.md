@@ -166,6 +166,8 @@
 
 [React: MobX 异步方法修改State的3种方式](https://github.com/leslie1943/blog/issues/77)
 
+[React: JSX中的内联条件表达式](https://github.com/leslie1943/blog/issues/79)
+
 
 ## 🚀 TypeScript
 [TypeScript: 数据类型/type/interface](https://github.com/leslie1943/blog/issues/62)
@@ -174,6 +176,8 @@
 ## 🚀 API
 [API: 浅谈Restful API](https://github.com/leslie1943/blog/issues/71)
 
+## 🚀 Git
+[Git: 60+ Git 常用命令行](https://github.com/leslie1943/blog/issues/80)
 
 ## 🚀 Other
 [babel: .babelrc vs babel.config.js](https://github.com/leslie1943/blog/issues/78)
