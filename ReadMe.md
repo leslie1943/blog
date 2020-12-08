@@ -168,6 +168,10 @@
 
 [React: JSX中的内联条件表达式](https://github.com/leslie1943/blog/issues/79)
 
+[React: React16 和 React15 生命周期的不同](https://github.com/leslie1943/blog/issues/81)
+
+[React: 在componentWill开头的生命周期中做的错事](https://github.com/leslie1943/blog/issues/82)
+
 
 ## 🚀 TypeScript
 [TypeScript: 数据类型/type/interface](https://github.com/leslie1943/blog/issues/62)
