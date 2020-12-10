@@ -35,7 +35,7 @@
 ## 🚀 JavaScript 异步编程
 |  |
 | ---- |
-| [异步编程的机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13). |
+| [异步编程: 机制, EventLoop, 消息队列, 宏任务, 微任务](https://github.com/leslie1943/blog/issues/13). |
 | [异步编程: async / await 基础解读](https://github.com/leslie1943/blog/issues/38). |
 | [异步编程: async / await 如果右边方法执行出错怎么办](https://github.com/leslie1943/blog/issues/37). |
 | [异步编程: 使用Promise模拟一个耗时异步方法](https://github.com/leslie1943/blog/issues/85). |
@@ -95,9 +95,9 @@
 ## 🚀 Vue
 |  |
 | ---- |
-| [computed vs watch](https://github.com/leslie1943/blog/issues/43). |
-| [组件间的传值方式](https://github.com/leslie1943/blog/issues/44). |
-| [this.$nextTick](https://github.com/leslie1943/blog/issues/45). |
+| [Vue: computed vs watch](https://github.com/leslie1943/blog/issues/43). |
+| [Vue: 组件间的传值方式](https://github.com/leslie1943/blog/issues/44). |
+| [Vue: this.$nextTick](https://github.com/leslie1943/blog/issues/45). |
 | [Vue: watch 的用法](https://github.com/leslie1943/blog/issues/46). |
 | [Vue: 双向绑定原理](https://github.com/leslie1943/blog/issues/47). |
 | [Vue: 常用的修饰符](https://github.com/leslie1943/blog/issues/48). |
