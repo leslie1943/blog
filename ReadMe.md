@@ -53,6 +53,9 @@
 
 [异步编程: async / await 如果右边方法执行出错怎么办](https://github.com/leslie1943/blog/issues/37).
 
+[异步编程: 使用Promise模拟一个耗时异步方法](https://github.com/leslie1943/blog/issues/85).
+
+
 ## 🚀 HTTP
 [http TCP连接的三次握手/四次挥手](https://github.com/leslie1943/blog/issues/25)
 
