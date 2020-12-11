@@ -126,6 +126,9 @@
 | [React: React16 和 React15 生命周期的不同](https://github.com/leslie1943/blog/issues/81). |
 | [React: 在componentWill开头的生命周期中做的错事](https://github.com/leslie1943/blog/issues/82). |
 | [React: Hooks-useContext 如何简化代码的](https://github.com/leslie1943/blog/issues/84). |
+| [React: Hooks-useEffect 调用异步方法](https://github.com/leslie1943/blog/issues/86). |
+| [React: Hooks-useState 实现原理](https://github.com/leslie1943/blog/issues/87). |
+| [React: Hooks 知识点小结](https://github.com/leslie1943/blog/issues/88). |
 
 ## 🚀 TypeScript
 |  |
