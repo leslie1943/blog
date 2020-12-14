@@ -150,4 +150,9 @@
 |  |
 | ---- |
 | [babel: .babelrc vs babel.config.js](https://github.com/leslie1943/blog/issues/78). |
+| [babel: 关于 Babel 那些事儿](https://github.com/leslie1943/blog/issues/90). |
 
+## 🚀 JavaScript 算法相关
+|  |
+| ---- |
+| [数组中有10万条数据,取第1条和第10万条的时间相差多少]](https://github.com/leslie1943/blog/issues/91). |
