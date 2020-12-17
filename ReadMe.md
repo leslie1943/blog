@@ -112,6 +112,7 @@
 | [Vue: Vue的性能如何优化](https://github.com/leslie1943/blog/issues/58). |
 | [Vue: 函数式组件](https://github.com/leslie1943/blog/issues/89). |
 | [Vue: 父子生命周期](https://github.com/leslie1943/blog/issues/92). |
+| [Vue: 作用域插槽](https://github.com/leslie1943/blog/issues/95). |
 
 ## 🚀 React
 |  |
@@ -158,4 +159,4 @@
 ## 🚀 JavaScript 算法相关
 |  |
 | ---- |
-| [数组中有10万条数据,取第1条和第10万条的时间相差多少]](https://github.com/leslie1943/blog/issues/91). |
+| [数组中有10万条数据,取第1条和第10万条的时间相差多少](https://github.com/leslie1943/blog/issues/91). |
