@@ -113,6 +113,7 @@
 | [Vue: 函数式组件](https://github.com/leslie1943/blog/issues/89). |
 | [Vue: 父子生命周期](https://github.com/leslie1943/blog/issues/92). |
 | [Vue: 作用域插槽](https://github.com/leslie1943/blog/issues/95). |
+| [Vue: 子组件获取父组件的异步数据](https://github.com/leslie1943/blog/issues/96). |
 
 ## 🚀 React
 |  |
