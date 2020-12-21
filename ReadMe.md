@@ -128,6 +128,7 @@
 | [React: Hooks简介](https://github.com/leslie1943/blog/issues/61). |
 | [React: React中的refs作用是什么](https://github.com/leslie1943/blog/issues/74). |
 | [React: constructor中的super](https://github.com/leslie1943/blog/issues/75). |
+| [React: 构造函数使用带 props 参数的目的是什么](https://github.com/leslie1943/blog/issues/99). |
 | [React: MobX 异步方法修改State的3种方式](https://github.com/leslie1943/blog/issues/77). |
 | [React: JSX中的内联条件表达式](https://github.com/leslie1943/blog/issues/79). |
 | [React: React16 和 React15 生命周期的不同](https://github.com/leslie1943/blog/issues/81). |
