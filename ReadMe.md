@@ -41,6 +41,7 @@
 | [异步编程: async / await 基础解读](https://github.com/leslie1943/blog/issues/38). |
 | [异步编程: async / await 如果右边方法执行出错怎么办](https://github.com/leslie1943/blog/issues/37). |
 | [异步编程: 使用Promise模拟一个耗时异步方法](https://github.com/leslie1943/blog/issues/85). |
+| [异步编程: 实现一个sleep函数](https://github.com/leslie1943/blog/issues/100). |
 
 
 ## 🚀 HTTP
@@ -115,6 +116,7 @@
 | [Vue: 父子生命周期](https://github.com/leslie1943/blog/issues/92). |
 | [Vue: 作用域插槽](https://github.com/leslie1943/blog/issues/95). |
 | [Vue: 子组件获取父组件的异步数据](https://github.com/leslie1943/blog/issues/96). |
+| [Vue: 在script区域使用自定义的过滤器-filters](https://github.com/leslie1943/blog/issues/102). |
 
 ## 🚀 React
 |  |
@@ -138,6 +140,7 @@
 | [React: Hooks-useState 实现原理](https://github.com/leslie1943/blog/issues/87). |
 | [React: Hooks 知识点小结](https://github.com/leslie1943/blog/issues/88). |
 | [React: 在JSX中如何进行for循环](https://github.com/leslie1943/blog/issues/97). |
+| [React: 为什么类方法需要绑定this](https://github.com/leslie1943/blog/issues/101). |
 
 ## 🚀 TypeScript
 |  |
