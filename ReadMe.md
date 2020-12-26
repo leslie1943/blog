@@ -42,7 +42,8 @@
 | [异步编程: async / await 如果右边方法执行出错怎么办](https://github.com/leslie1943/blog/issues/37). |
 | [异步编程: 使用Promise模拟一个耗时异步方法](https://github.com/leslie1943/blog/issues/85). |
 | [异步编程: 实现一个sleep函数](https://github.com/leslie1943/blog/issues/100). |
-| [异步编程: Promise 和 Async/Await (非常精彩的文章) ](https://github.com/leslie1943/blog/issues/103). |
+| [异步编程: 回调函数 ](https://github.com/leslie1943/blog/issues/103). |
+| [异步编程: Promise 和 Async/Await (非常精彩的文章) ](https://github.com/leslie1943/blog/issues/104). |
 
 
 ## 🚀 HTTP
@@ -118,6 +119,7 @@
 | [Vue: 作用域插槽](https://github.com/leslie1943/blog/issues/95). |
 | [Vue: 子组件获取父组件的异步数据](https://github.com/leslie1943/blog/issues/96). |
 | [Vue: 在script区域使用自定义的过滤器-filters](https://github.com/leslie1943/blog/issues/102). |
+| [Vue: 使用$set动态给数据设置属性](https://github.com/leslie1943/blog/issues/104). |
 
 ## 🚀 React
 |  |
