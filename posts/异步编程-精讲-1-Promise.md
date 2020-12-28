@@ -159,3 +159,34 @@ getImage(file)
 现在我们可以用这个值做任何我们想做的事.
 
 ---
+
+顺便提醒一下, 当你知道一个 `promise` 总是 `resolve` 或者总是 `reject` 的时候, 你可以写 `Promise.resolve` 或 `Promise.reject`, 传入你想要 `reject` 或 `resolve` 的 `promise` 的值.
+
+<img src="../images/promise/11.png" height="300">
+
+在下边的例子中你将会经常看到这个语法. 
+
+在 `getImage` 的例子中, 为了运行它们, 我们最终不得不嵌套多个回调. 幸运的, `.then` 处理器可以帮助我们完成这件事! 
+
+`.then` 它自己的执行结果是一个 `promise`. 这意味着我们可以链接任意数量的 `.then`：前一个 `then` 回调的结果将会作为参数传递给下一个 `then` 回调.
+
+```js
+Promise.resolve(5) // Promise { 5 }
+    .then(res => res * 2) // Promise { 10 }
+    .then(res => res * 2) // Promise { 20 }
+    .then(res => res * 2) // Promise { 40 }
+    .then(res => res * 2) // Promise { 80 }
+    .then(res => res * 2) // Promise { 160 }
+```
+<img src="../images/promise/12.png" height="300">
+
+在 `getImage` 示例中, 为了传递被处理的图片到下一个函数, 我们可以链接多个 `then` 回调.
+
+相比于之前最终得到许多嵌套回调, 现在我们得到了整洁的 `then` 链.
+
+<img src="../images/promise/13.png" height="300">
+
+完美! 这个语法看起来已经比之前的嵌套回调好多了.
+
+
+## 宏任务和微任务

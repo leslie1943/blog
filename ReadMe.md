@@ -43,8 +43,8 @@
 | [异步编程: 使用Promise模拟一个耗时异步方法](https://github.com/leslie1943/blog/issues/85). |
 | [异步编程: 实现一个sleep函数](https://github.com/leslie1943/blog/issues/100). |
 | [异步编程: 回调函数 ](https://github.com/leslie1943/blog/issues/103). |
-| [异步编程: Promise 和 Async/Await (非常精彩的文章) ](https://github.com/leslie1943/blog/issues/104). |
-
+| [异步编程: 精讲-(1)-Promise ](https://github.com/leslie1943/blog/issues/105). |
+| [异步编程: 精讲-(2)-宏任务和微任务](https://github.com/leslie1943/blog/issues/106). |
 
 ## 🚀 HTTP
 |  |
