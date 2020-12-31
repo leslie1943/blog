@@ -122,6 +122,7 @@
 | [Vue: 子组件获取父组件的异步数据](https://github.com/leslie1943/blog/issues/96). |
 | [Vue: 在script区域使用自定义的过滤器-filters](https://github.com/leslie1943/blog/issues/102). |
 | [Vue: 使用$set动态给数据设置属性](https://github.com/leslie1943/blog/issues/104). |
+| [Vue: 使用异步完成子组件的表单校验](https://github.com/leslie1943/blog/issues/109). |
 
 ## 🚀 React
 |  |
