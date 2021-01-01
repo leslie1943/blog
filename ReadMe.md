@@ -147,6 +147,7 @@
 | [React: Hooks 知识点小结](https://github.com/leslie1943/blog/issues/88). |
 | [React: 在JSX中如何进行for循环](https://github.com/leslie1943/blog/issues/97). |
 | [React: 为什么类方法需要绑定this](https://github.com/leslie1943/blog/issues/101). |
+| [React: SSR Next: getStaticProps Vs getServerSideProps](https://github.com/leslie1943/blog/issues/110). |
 
 ## 🚀 TypeScript
 |  |
