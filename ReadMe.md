@@ -47,11 +47,14 @@
 | [异步编程: 精讲-(2)-宏任务和微任务](https://github.com/leslie1943/blog/issues/106). |
 | [异步编程: 精讲-(3)-async-await](https://github.com/leslie1943/blog/issues/107). |
 | [异步编程: Promise retry方法实现](https://github.com/leslie1943/blog/issues/108). |
-| [异步编程: Promise题目(1)](https://github.com/leslie1943/blog/issues/111). |
-| [异步编程: Promise题目(2)](https://github.com/leslie1943/blog/issues/112). |
-| [异步编程: Promise题目(3)](https://github.com/leslie1943/blog/issues/113). |
-| [异步编程: Promise题目(4)](https://github.com/leslie1943/blog/issues/114). |
-| [异步编程: Promise题目(5)](https://github.com/leslie1943/blog/issues/115). |
+| [异步编程: Promise题目(1-1)](https://github.com/leslie1943/blog/issues/111). |
+| [异步编程: Promise题目(1-2)](https://github.com/leslie1943/blog/issues/112). |
+| [异步编程: Promise题目(1-3)](https://github.com/leslie1943/blog/issues/113). |
+| [异步编程: Promise题目(1-4)](https://github.com/leslie1943/blog/issues/114). |
+| [异步编程: Promise题目(1-5)](https://github.com/leslie1943/blog/issues/115). |
+| [异步编程: Promise题目(1-6)](https://github.com/leslie1943/blog/issues/116). |
+| [异步编程: Promise题目(2-1)](https://github.com/leslie1943/blog/issues/117). |
+| [异步编程: Promise题目(2-2)](https://github.com/leslie1943/blog/issues/118). |
 
 ## 🚀 HTTP
 |  |

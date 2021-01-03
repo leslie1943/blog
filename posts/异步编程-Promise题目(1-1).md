@@ -1,4 +1,4 @@
-### Promise 题目 - 1
+### Promise 题目 1 - 1
 
 ```js
 const promise1 = new Promise((resolve, reject) => {
@@ -6,6 +6,7 @@ const promise1 = new Promise((resolve, reject) => {
 })
 
 console.info('1', promise1)
+// 1, Promise{<pending>}
 ```
 
 ### 过程分析

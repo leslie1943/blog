@@ -1,0 +1,7 @@
+{
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "comma-dangle": false,
+  "printWidth": 80
+}

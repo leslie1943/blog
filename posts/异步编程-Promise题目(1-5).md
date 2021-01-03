@@ -1,4 +1,4 @@
-### Promise 题目 - 5
+### Promise 题目 1 - 5
 
 ```js
 const fn = () =>

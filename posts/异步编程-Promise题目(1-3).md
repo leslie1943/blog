@@ -1,4 +1,4 @@
-### Promise 题目 - 3
+### Promise 题目 1 - 3
 
 ```js
 const promise = new Promise((resolve, reject) => {
