@@ -59,6 +59,7 @@
 | [异步编程: Promise题目(2-3-2)](https://github.com/leslie1943/blog/issues/120). |
 | [异步编程: Promise题目(2-4)](https://github.com/leslie1943/blog/issues/121). |
 | [异步编程: Promise题目(2-5)](https://github.com/leslie1943/blog/issues/122). |
+| [异步编程: Promise题目(3-0)](https://github.com/leslie1943/blog/issues/123). |
 
 ## 🚀 HTTP
 |  |
