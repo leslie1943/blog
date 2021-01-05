@@ -2,7 +2,7 @@
 
 1. `Promise` 的 状态一经改变就不能再改变 [异步编程: Promise题目(3-1)](https://github.com/leslie1943/blog/issues/124).
 2. `.then`和`.catch`都会返回一个新的 `Promise`(只不过这个新的Promise对象的状态是根据`.then`的返回值而定). 参见: [异步编程: Promise题目(1-4)](https://github.com/leslie1943/blog/issues/114).
-3. `.catch`不管被连接到哪里, 都能捕获上层未捕获过的错误. [异步编程: Promise题目(3-2)](https://github.com/leslie1943/blog/issues/125).
+3. `.catch`不管被连接到哪里, 都能捕获上层未捕获过的错误. 参见: [异步编程: Promise题目(3-2)](https://github.com/leslie1943/blog/issues/125).
 4. 在`Promise`中, 返回任意一个非`promise`的值都会被包裹成`promise`对象, 例如
 ```js
     return 2 
