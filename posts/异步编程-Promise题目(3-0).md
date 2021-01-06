@@ -24,7 +24,7 @@ Promise.reject(2).then((res)=>{
     console.info('res catch',res) // 这里会输出
 })
 ```
-6. `.then`或者`.catch`中`return`一个`error`对象并不会抛出错误,所以不会后续的`.catch`捕获
+6. `.then`或者`.catch`中`return`一个`error`对象并不会抛出错误,所以不会被后续的`.catch`捕获
 ```js
 Promise.resolve(2).then((res)=>{
     return new Error('error in then')
