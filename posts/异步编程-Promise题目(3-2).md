@@ -27,6 +27,8 @@ promise1
  * 输出 then3: undefined
  */
 ```
+- 至于`then3`也会被执行, 那是因为`catch()`也会返回一个`Promise`, 且由于这个`Promise`没有返回值, 所以打印出来的是 `undefined`
+
 
 - 在`Promise`中, 返回任意一个非`promise`的值都会被包裹成`promise`对象, 例如
 ```js
