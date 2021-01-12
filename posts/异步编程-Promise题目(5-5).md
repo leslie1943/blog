@@ -2,11 +2,14 @@
 - 在 `async1` 中 `await` 后面的 `Promise` 是没有返回值的, 也就是它的状态始终是 `pending` 状态, 因此相当于一直在 `await`, `await`, `await` 却始终没有响应.
 - 所以在 `await` 之后的内容是不会执行的, 也包括 `async1` 后面的 `.then`.
 
+<font color="red"> 如果在一个 Promise 前使用了 await, 那么一定要 resolve('OK') / reject('Error') 不然会一直 await , 阻挡后面语句的执行. </font>
+
 ```js
 async function async1() {
   console.log('async1 start')
   await new Promise((resolve) => {
     console.log('promise1')
+    // ✅✅ 此处需要 reslove
   })
   console.log('async1 success')
   return 'async1 end'
