@@ -1,4 +1,4 @@
-### Promise 6 - 1
+### Promise 6 - 2
 
 ```js
 async function async1() {
@@ -27,3 +27,22 @@ console.log('script start')
 3. 执行微任务`try`, 遇到 `Promise.reject('error!!!')`,跳转到 `catch`去执行
 4. 然后继续执行 `async1`, 执行 `return`
 5. 执行`.then()` 输出 返回结果
+
+
+- 或者你可以直接在 `Promise.reject` 后面跟着一个`catch()`方法, 运行结果是一样的.
+```js
+async function async1 () {
+  // try {
+  //   await Promise.reject('error!!!')
+  // } catch(e) {
+  //   console.log(e)
+  // }
+  await Promise.reject('error!!!')
+    .catch(e => console.log(e))
+  console.log('async1');
+  return Promise.resolve('async1 success')
+}
+async1().then(res => console.log(res))
+console.log('script start')
+
+```
