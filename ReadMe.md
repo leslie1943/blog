@@ -89,6 +89,7 @@
 | [异步编程: Promise题目(7-2)](https://github.com/leslie1943/blog/issues/150). |
 | [异步编程: Promise题目(7-3)](https://github.com/leslie1943/blog/issues/151). |
 | [异步编程: Promise题目-使用Promise实现每隔1秒输出1,2,3](https://github.com/leslie1943/blog/issues/152). |
+| [异步编程: Promise题目-使用Promise实现红绿灯交替重复亮](https://github.com/leslie1943/blog/issues/153). |
 
 ## 🚀 HTTP
 |  |
