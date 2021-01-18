@@ -166,6 +166,7 @@
 | [Vue: 在script区域使用自定义的过滤器-filters](https://github.com/leslie1943/blog/issues/102). |
 | [Vue: 使用$set动态给数据设置属性](https://github.com/leslie1943/blog/issues/104). |
 | [Vue: 使用异步完成子组件的表单校验](https://github.com/leslie1943/blog/issues/109). |
+| [Vue: Object.defineProperty Vs Proxy](https://github.com/leslie1943/blog/issues/154). |
 
 ## 🚀 React
 |  |
@@ -207,11 +208,12 @@
 | ---- |
 | [Git: 60+ Git 常用命令行](https://github.com/leslie1943/blog/issues/80). |
 
-## 🚀 Other
+## 🚀 Babel
 |  |
 | ---- |
 | [babel: .babelrc vs babel.config.js](https://github.com/leslie1943/blog/issues/78). |
 | [babel: 关于 Babel 那些事儿](https://github.com/leslie1943/blog/issues/90). |
+| [babel: Babel的各种名词及详细使用,附代码步骤](https://github.com/leslie1943/blog/issues/155). |
 
 ## 🚀 JavaScript 算法相关
 |  |
