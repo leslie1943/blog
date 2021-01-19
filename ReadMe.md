@@ -33,6 +33,7 @@
 | [JavaScript: DOM下的事件流和事件委托](https://github.com/leslie1943/blog/issues/83). |
 | [JavaScript: 判断数组的方法](https://github.com/leslie1943/blog/issues/93). |
 | [JavaScript: null 和 undefined的区别](https://github.com/leslie1943/blog/issues/94). |
+| [JavaScript: 函数声明 vs 函数定义](https://github.com/leslie1943/blog/issues/156). |
 
 ## 🚀 JavaScript 异步编程
 |  |
