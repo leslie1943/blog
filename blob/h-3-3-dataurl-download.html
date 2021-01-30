@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataURL</title>
+</head>
+
+<body>
+    <div id="content">
+    </div>
+    <script>
+        const createDownload = (fileName, content) => {
+            // 创建blob
+            const blob = new Blob([content]);
+            // 创建读写器
+            const reader = new FileReader();
+            // 创建一个link
+            const link = document.createElement('a');
+
+            link.innerHTML = fileName;
+            link.download = fileName;
+
+            reader.onload = () => {
+                link.href = reader.result;
+                document.getElementsByTagName('body')[0].appendChild(link);
+            };
+            reader.readAsDataURL(blob);
+        };
+
+        createDownload('download.txt', 'leslie');
+    </script>
+</body>
+
+</html>

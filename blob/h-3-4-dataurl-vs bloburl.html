@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlobURL Vs DataURL</title>
+</head>
+
+<body>
+    <button onclick="download1()">XMLHttpRequest 下载</button>
+    <button onclick="download2()">fetch 下载</button>
+    <img id="img">
+    <script>
+        var eleAppend = document.getElementById('forAppend');
+        const url = 'https://sf3-ttcdn-tos.pstatp.com/img/user-avatar/9ecb4e119c26e64b8b4ec5258f159b3b~300x300.image';
+        const pingan = document.querySelector('#pingan');
+
+        function download1() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('get', url, true);
+            xhr.responseType = 'blob';
+            xhr.onload = function () {
+                if (this.status == 200) {
+                    renderImage(this.response);
+                }
+            };
+            xhr.send(null);
+        }
+        function download2() {
+            fetch(url)
+                .then((res) => {
+                    return res.blob();
+                })
+                .then((myBlob) => {
+                    renderImage(myBlob);
+                });
+        }
+
+        function renderImage(blob) {
+            window.URL = window.URL || window.webkitURL;
+            var img = document.getElementById('img');
+            img.onload = function (e) {
+                window.URL.revokeObjectURL(img.src); // 清除释放
+            };
+            img.src = window.URL.createObjectURL(blob);
+        }
+    </script>
+</body>
+
+</html>

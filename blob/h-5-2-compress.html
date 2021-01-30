@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <input type="file" accept="image/*" onchange="loadFile(event)" />
+
+    <script src="./compress.js"></script>
+    <script>
+        function dataUrlToBlob(base64) {
+            var arr = base64.split(','),
+                mime = arr[0].match(/:(.*?);/)[1],
+                bstr = atob(arr[1]),
+                n = bstr.length,
+                u8arr = new Uint8Array(n);
+
+            while (n--) {
+                u8arr[n] = bstr.charCodeAt(n);
+            }
+            return new Blob([u8arr], { type: mime });
+        }
+
+        function uploadFile(url, blob) {
+            let formData = new FormData();
+            let request = new XMLHttpRequest();
+            // 封装到FormData中进行文件的上传
+            formData.append('image', blob);
+            request.open('POST', url, true);
+            request.send(formData);
+        }
+
+        const loadFile = function (event) {
+            const reader = new FileReader();
+            reader.onload = async function () {
+                console.info('reader.result', reader.result)
+                let compressedDataURL = await compress(reader.result, 90, 'image/jpeg');
+                // 压缩后将base64转为Blob 对象减少传输数据量
+                let compressedImageBlob = dataUrlToBlob(compressedDataURL);
+                console.info('compressedImageBlob', compressedImageBlob)
+                uploadFile('https://httpbin.org/post', compressedImageBlob);
+            };
+            // 获取用户选取的图片文件,通过FileReader转化成base64
+            reader.readAsDataURL(event.target.files[0]);
+        };
+
+    </script>
+</body>
+
+</html>

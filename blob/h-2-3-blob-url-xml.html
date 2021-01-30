@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File reader</title>
+</head>
+
+<body>
+    <div id="content">
+        <button type="button" onclick="handleClick();">点击
+        </button>
+    </div>
+    <script>
+        const getObjectURL = (file) => {
+            let url;
+            if (window.createObjectURL) {
+                url = window.createObjectURL(file);
+            } else if (window.URL) {
+                url = window.URL.createObjectURL(file);
+            } else if (window.webkitURL) {
+                url = window.webkitURL.createObjectURL(file);
+            }
+            console.info('url', url)
+
+            return url;
+        };
+
+        const handleClick = () => {
+            // Blob的构造函数的第一个参数 二进制类型的大对象
+            // const blob = new Blob([data], { type: 'application/pdf' })
+            const blob = new Blob(['<xml>Hello XML</xml>'], { type: 'text/xml' })
+            const url = getObjectURL(blob)
+            window.open(url, '_blank')
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File reader</title>
+</head>
+
+<body>
+    <input type="file" id='f' />
+    <script>
+        var f = document.getElementById('f')
+        function onChange(event) {
+            var files = event.target.files
+            var file = files[0]
+
+            // 首先需要创建一个FileReader的实例
+            const reader = new FileReader()
+            reader.onload = function () {
+                // 加载完成时执行回调
+                const content = reader.result
+                console.info('content', content)
+            }
+            reader.readAsText(file)
+        }
+        f.addEventListener('change', onChange, false)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" name="file" onchange="selfile();" />
+
+    <script>
+        const url = 'https://httpbin.org/post';
+        /**
+         * @param file 原始文件
+         * @param chunkSize 默认每次上传分片大小
+         */
+        async function chunkedUpload(file, chunkSize) {
+            debugger
+            // 将文件拆分成chunkSize大小的分块, 然后每次请求只需要上传这一个部分的分块即可
+            for (let start = 0; start < file.size; start += chunkSize) {
+                // File对象继承自Blob对象, 因此可以使用slice方法对大文件进行切
+                const chunk = file.slice(start, start + chunkSize + 1);
+                console.info('chunk', chunk)
+                const formdata = new FormData();
+                formdata.append('data', chunk);
+                console.info('formdata', formdata)
+
+
+                await fetch(url, { method: 'post', body: formdata })
+                    .then((res) => res.text())
+                    .then((res) => console.log(res)); // 打印上传结果
+            }
+        }
+
+        function selfile() {
+            let file = document.querySelector('[name=file]').files[0];
+
+            // 自定义分片大小
+            const size = 1024 * 1024 * 1;
+            chunkedUpload(file, size);
+        }
+        /*
+            服务器接收到这些切片后, 再将他们拼接起来就可以了, 下面是PHP拼接切片的示例代码:
+
+            $filename = './upload/' . $_POST['filename'];//确定上传的文件名
+            //第一次上传时没有文件, 就创建文件, 此后上传只需要把数据追加到此文件中
+            if(!file_exists($filename)){
+                move_uploaded_file($_FILES['file']['tmp_name'],$filename);
+            }else{
+                file_put_contents($filename,file_get_contents($_FILES['file']['tmp_name']),FILE_APPEND);
+                echo $filename;
+            }
+        **/
+
+        /*
+        测试时记得修改nginx的server配置, 否则大文件可能会提示413 Request Entity Too Large的错误。
+        server {
+            // ...
+            client_max_body_size 50m;
+            }
+        **/
+    </script>
+</body>
+
+</html>

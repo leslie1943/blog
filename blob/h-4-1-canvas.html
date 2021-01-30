@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <div id="content">
+        <button onclick="getImg()">获取图像</button>
+        <button onclick="drawnImg()">绘制图像</button>
+        <canvas style="border: 1px solid black" id="drawing" width="200px" height="200px">A drawing of
+            something.</canvas>
+        <img src="./timg.jpg" width="30%" alt="" />
+    </div>
+    <script>
+        var canvas = document.getElementById('drawing')
+        var quality = 0.3
+        const imgType = 'image/jpeg'
+
+        var drawnImg = function () {
+            if (canvas.getContext) {
+                var context = canvas.getContext('2d')
+                // 取得图像的数据URI
+                var image = document.images[0]
+                context.drawImage(image, 50, 50, 100, 100)
+                console.info(canvas.toDataURL('image/jpg'))
+            }
+        }
+
+        var getImg = async function () {
+            // 直接读取 base64格式的图片
+            const content_base64 = getContent('base64')
+            console.log('content_base64', content_base64);
+
+            // 获取 blob, 使用FileReader.readAsDataURL()转换blob
+            const content_file = await getContent('file');
+            console.log(content_file);
+            var reader = new FileReader();
+            reader.readAsDataURL(content_file, 'image/png');
+            reader.onload = function (e) {
+                console.info('reader.result', reader.result);
+            };
+        }
+        var getContent = function (type) {
+            switch (type) {
+                case 'base64': {
+                    const imgURL = canvas.toDataURL(imgType, quality)
+                    return imgURL
+                }
+                case 'file':
+                    {
+                        return new Promise((resolve) => {
+                            canvas.toBlob((blob) => { resolve(blob) }, imgType, quality)
+                        });
+                    }
+                    break
+            }
+        }
+
+    </script>
+</body>
+
+</html>

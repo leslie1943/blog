@@ -220,3 +220,11 @@
 |  |
 | ---- |
 | [数组中有10万条数据,取第1条和第10万条的时间相差多少](https://github.com/leslie1943/blog/issues/91). |
+
+## 🚀 Other 
+|  |
+| ---- |
+| [Other: What is "Blob"](https://github.com/leslie1943/blog/issues/91). |
+| [Other: URL.revokeObjectURL](https://github.com/leslie1943/blog/issues/158). |
+| [Other: Canvas.toDataURL](https://github.com/leslie1943/blog/issues/159). |
+| [Other: 文件的分片上传](https://github.com/leslie1943/blog/issues/160). |

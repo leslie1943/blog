@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Image</title>
+</head>
+
+<body>
+    <div id="content">
+        <input type="file" multiple id='f' />
+    </div>
+    <script>
+        const getObjectURL = (file) => {
+            let url;
+            if (window.createObjectURL) {
+                url = window.createObjectURL(file);
+            } else if (window.URL) {
+                url = window.URL.createObjectURL(file);
+            } else if (window.webkitURL) {
+                url = window.webkitURL.createObjectURL(file);
+            }
+            console.info('url', url)
+            //  blob:null/e6701bdb-a46e-4dda-a51b-e5e1c9e29ee8
+            //  blob:null/03a9d6e3-45db-42c5-9fe3-a0e339e3543f
+            return url;
+        };
+
+        const elem = document.getElementById('f')
+        const content = document.getElementById('content')
+
+        elem.onchange = function (event) {
+            const files = event.target.files
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i]
+
+                const img = document.createElement('img')
+                img.src = getObjectURL(file)
+                content.appendChild(img)
+            }
+        }
+    </script>
+</body>
+
+</html>

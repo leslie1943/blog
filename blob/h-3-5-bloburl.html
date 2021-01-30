@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlobURL Vs DataURL</title>
+</head>
+
+<body>
+    <script src="./getObjectURL.js"></script>
+    <script>
+        var createDownload = (filename, content) => {
+            const blob = new Blob([content], { type: 'text/html' })
+            const link = document.createElement('a')
+            link.innerHTML = filename
+            link.download = filename
+            link.href = getObjectURL(blob)
+            document.getElementsByTagName('body')[0].appendChild(link)
+        }
+        createDownload('download.html', '<button>foo</button>')
+    </script>
+</body>
+
+</html>

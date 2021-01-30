@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Download</title>
+</head>
+
+<body>
+    <button onclick="download()">download.txt</button>
+    <script>
+
+        const getObjectURL = (file) => {
+            let url;
+            if (window.createObjectURL) {
+                url = window.createObjectURL(file);
+            } else if (window.URL) {
+                url = window.URL.createObjectURL(file);
+            } else if (window.webkitURL) {
+                url = window.webkitURL.createObjectURL(file);
+            }
+            console.info('url', url)
+
+            return url;
+        };
+
+        function download() {
+            const filename = 'download.txt'
+            const blob = new Blob(['一蓑烟雨任平生'], { type: 'text/plain' })
+            // const blob = new Blob(['内容需要是pdf才行'], { type: 'application/pdf' })
+            downloadFun(filename, blob)
+        }
+
+        function downloadFun(filename, blob) {
+            const link = document.createElement('a')
+            link.href = getObjectURL(blob)
+            link.download = filename
+            link.click()
+            link.remove()
+            URL.revokeObjectURL(link.href) // 删除生成的链接
+        }
+
+    </script>
+</body>
+
+</html>

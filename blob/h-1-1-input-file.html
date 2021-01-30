@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input File</title>
+</head>
+
+<body>
+    <input type="file" id="f" />
+    <script>
+        var elem = document.getElementById('f')
+        elem.onchange = function (event) {
+            var files = event.target.files
+            var file = files[0]
+            console.info('files', files)  // [{{name: "1.jpg",lastModified: 1594369580771...},{name:'2.jpg',lastModified: 1596012406708...}]
+            console.info('file', file)  // {name: "1.jpg",lastModified: 1594369580771,size: 22344,type: "image/jpeg"...}
+            console.info(file instanceof File) // true
+            console.info(files instanceof FileList)
+
+            // const blob = new Blob(['<div>john</div>'], { type: 'image/jpeg' })
+            // var file_array_buffer = new ArrayBuffer(file.size)
+            // var dv = new DataView(file_array_buffer, 0)
+            // console.info('dv', dv)
+
+            // File 继承 Blob
+            console.info(file.__proto__.__proto__) // 参考图片 file_extends_blob.png
+        }
+    </script>
+</body>
+
+</html>

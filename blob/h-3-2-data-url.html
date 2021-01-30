@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataURL</title>
+</head>
+
+<body>
+    <div id="content">
+        <input type="file" multiple id="f" />
+    </div>
+    <script>
+        const elem = document.getElementById('f');
+        const content = document.getElementById('content');
+
+        elem.onchange = function (event) {
+            const files = event.target.files;
+            const file = files[0];
+            const img = document.createElement('img');
+            // - img.src = getObjectURL(file);
+            const reader = new FileReader();
+            reader.onload = function () {
+                img.src = reader.result;
+            };
+            reader.readAsDataURL(file);
+            content.appendChild(img);
+        };
+    </script>
+</body>
+
+</html>
