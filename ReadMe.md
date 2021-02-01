@@ -137,6 +137,8 @@
 | [CSS: 次行缩进](https://github.com/leslie1943/blog/issues/67). |
 | [CSS: Flex布局](https://github.com/leslie1943/blog/issues/76). |
 | [CSS: 引用方式. link vs @import](https://github.com/leslie1943/blog/issues/98). |
+| [CSS: 盒子模型](https://github.com/leslie1943/blog/issues/161). |
+| [CSS: CSS选择符](https://github.com/leslie1943/blog/issues/162). |
 
 ## 🚀 性能优化
 |  |
