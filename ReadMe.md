@@ -140,6 +140,8 @@
 | [CSS: 盒子模型](https://github.com/leslie1943/blog/issues/161). |
 | [CSS: CSS选择符](https://github.com/leslie1943/blog/issues/162). |
 | [CSS: 伪元素 ::before 和 :after](https://github.com/leslie1943/blog/issues/163). |
+| [CSS: 实现一个三角形](https://github.com/leslie1943/blog/issues/164). |
+| [CSS: 哪些属性可以继承](https://github.com/leslie1943/blog/issues/165). |
 
 ## 🚀 性能优化
 |  |
@@ -171,6 +173,7 @@
 | [Vue: 使用$set动态给数据设置属性](https://github.com/leslie1943/blog/issues/104). |
 | [Vue: 使用异步完成子组件的表单校验](https://github.com/leslie1943/blog/issues/109). |
 | [Vue: Object.defineProperty Vs Proxy](https://github.com/leslie1943/blog/issues/154). |
+| [Vue: Keep-alive 和 activated的使用](https://github.com/leslie1943/blog/issues/166). |
 
 ## 🚀 React
 |  |
