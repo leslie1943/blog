@@ -143,7 +143,7 @@
 | [CSS: 实现一个三角形](https://github.com/leslie1943/blog/issues/164). |
 | [CSS: 哪些属性可以继承](https://github.com/leslie1943/blog/issues/165). |
 | [CSS: rem与em的使用](https://github.com/leslie1943/blog/issues/167). |
-| [CSS: witdth:auto 和 width:100%的区别](https://github.com/leslie1943/blog/issues/169). |
+| [CSS: width:auto 和 width:100%的区别](https://github.com/leslie1943/blog/issues/169). |
 
 ## 🚀 性能优化
 |  |
