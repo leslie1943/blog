@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .box {
+            border: 4px solid teal;
+        }
+
+        .box-clearfix {
+            border: 4px solid teal;
+            overflow: auto;
+        }
+
+        .left {
+            /* float: left; 这样设置的话会导致导致父元素的高度为 0 */
+            display: inline-block;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .middle {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">左侧内容</div>
+        <div class="right">
+            <img
+                src="https://upload.jianshu.io/users/upload_avatars/1482909/d4282fa8db6e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/90/h/90/format/webp">
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="box-clearfix">
+        <div class="left">左侧内容</div>
+        <div class="right">
+            <img
+                src="https://upload.jianshu.io/users/upload_avatars/1482909/d4282fa8db6e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/90/h/90/format/webp">
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="box">
+
+        <div class="left">左侧内容</div>
+        <div class="right">
+            <img
+                src="https://upload.jianshu.io/users/upload_avatars/1482909/d4282fa8db6e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/90/h/90/format/webp">
+        </div>
+        <div class="middle"></div>
+    </div>
+
+
+</body>
+
+</html>
