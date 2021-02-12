@@ -124,6 +124,11 @@
             display: block;
             clear: both;
         }
+        .clearfix {
+            /* *ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行 */
+            *zoom: 1; 
+        }
+
     </style>
 </head>
 
