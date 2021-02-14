@@ -1,0 +1,33 @@
+## CSS- 画一条0.5px的直线
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .hr {
+            width: 300px;
+            background-color: tomato;
+        }
+
+        .hr.half-px {
+            height: 1px;
+            transform: scale(0.5);
+        }
+
+        .hr.one-px {
+            height: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>0.5px</p>
+    <div class="hr half-px"></div>
+    <p>1px</p>
+    <div class="hr one-px"></div>
+</body>
+
+</html>
+```

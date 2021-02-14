@@ -1,0 +1,68 @@
+## CSS-扔到桌子上面的图片
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 30px;
+            background-color: #E9E9E9;
+        }
+
+        div.polaroid {
+            width: 294px;
+            padding: 10px 10px 20px 10px;
+            border: 1px solid #BFBFBF;
+            background-color: white;
+            /* Add box-shadow */
+            box-shadow: 2px 2px 3px #aaaaaa;
+        }
+
+        div.rotate_left {
+            float: left;
+            -ms-transform: rotate(7deg);
+            /* IE 9 */
+            -moz-transform: rotate(7deg);
+            /* Firefox */
+            -webkit-transform: rotate(7deg);
+            /* Safari and Chrome */
+            -o-transform: rotate(7deg);
+            /* Opera */
+            transform: rotate(7deg);
+        }
+
+        div.rotate_right {
+            float: left;
+            -ms-transform: rotate(-8deg);
+            /* IE 9 */
+            -moz-transform: rotate(-8deg);
+            /* Firefox */
+            -webkit-transform: rotate(-8deg);
+            /* Safari and Chrome */
+            -o-transform: rotate(-8deg);
+            /* Opera */
+            transform: rotate(-8deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="polaroid rotate_left">
+        <img src="https://bbs.qn.img-space.com/201910/6/ec76ed215be734c60631b509eeffc6cf.jpg?imageView2/2/w/1024/q/75/ignore-error/1/"
+            alt="郁金香" width="284" height="213" />
+        <p class="caption">Ballade Dream。</p>
+    </div>
+
+    <div class="polaroid rotate_right">
+        <img src="https://bbs.qn.img-space.com/201910/6/85833b8012b9e0a626961e844f531c3d.jpg?imageView2/2/w/1024/q/75/ignore-error/1/"
+            alt="世博中国馆" width="284" height="213" />
+        <p class="caption">Russia</p>
+    </div>
+
+
+</body>
+
+</html>
+```
