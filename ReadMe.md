@@ -213,6 +213,7 @@
 |  |
 | ---- |
 | [TypeScript: 数据类型/type/interface](https://github.com/leslie1943/blog/issues/62). |
+| [TypeScript: 如何理解泛型中的 <T>](https://github.com/leslie1943/blog/issues/183). |
 
 ## 🚀 API
 |  |
@@ -243,6 +244,7 @@
 | [Other: URL.revokeObjectURL](https://github.com/leslie1943/blog/issues/158). |
 | [Other: Canvas.toDataURL](https://github.com/leslie1943/blog/issues/159). |
 | [Other: 文件的分片上传](https://github.com/leslie1943/blog/issues/160). |
+| [Other: cookies,sessionStorage 和 localStorage](https://github.com/leslie1943/blog/issues/182). |
 
 
 ## 🚀 Node.js 
