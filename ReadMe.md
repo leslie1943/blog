@@ -208,6 +208,8 @@
 | [React: 在JSX中如何进行for循环](https://github.com/leslie1943/blog/issues/97). |
 | [React: 为什么类方法需要绑定this](https://github.com/leslie1943/blog/issues/101). |
 | [React: SSR Next: getStaticProps Vs getServerSideProps](https://github.com/leslie1943/blog/issues/110). |
+| [React: setState是同步还是异步](https://github.com/leslie1943/blog/issues/184). |
+| [React: Diff 简短的总结](https://github.com/leslie1943/blog/issues/185). |
 
 ## 🚀 TypeScript
 |  |
