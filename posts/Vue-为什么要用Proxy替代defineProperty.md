@@ -170,7 +170,7 @@ state.bar.a = 10 // no ok
      return isObject(res) ? reactive(res) : res
  },
 ```
-### defineProperty小结
+### Proxy 小结
 1. Object.defineProperty只能遍历对象属性进行劫持
 ```js
 function observe(obj) {
