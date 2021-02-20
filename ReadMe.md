@@ -150,6 +150,7 @@
 | [CSS: CSS3有哪些新特性](https://github.com/leslie1943/blog/issues/173). |
 | [CSS: 画一条0.5px的直线](https://github.com/leslie1943/blog/issues/180). |
 | [CSS: 扔到桌子上面的图片](https://github.com/leslie1943/blog/issues/181). |
+| [CSS: flex:1](https://github.com/leslie1943/blog/issues/189). |
 
 ## 🚀 性能优化
 |  |
