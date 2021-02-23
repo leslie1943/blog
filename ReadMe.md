@@ -267,4 +267,5 @@
 | [Node: path.join()和path.normalize()](https://github.com/leslie1943/blog/issues/178). |
 | [Node: path.resolve()](https://github.com/leslie1943/blog/issues/179). |
 | [Node: 使用fs模块完成文件的COPY](https://github.com/leslie1943/blog/issues/192). |
+| [Node: 创建目录-同步方式/异步方式](https://github.com/leslie1943/blog/issues/193). |
 
