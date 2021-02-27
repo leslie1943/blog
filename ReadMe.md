@@ -35,6 +35,7 @@
 | [JavaScript: null 和 undefined的区别](https://github.com/leslie1943/blog/issues/94). |
 | [JavaScript: 函数声明 vs 函数定义](https://github.com/leslie1943/blog/issues/156). |
 | [JavaScript: 执行上下文和执行栈是什么?](https://github.com/leslie1943/blog/issues/194). |
+| [JavaScript: export default 和 export 的区别](https://github.com/leslie1943/blog/issues/198). |
 
 ## 🚀 JavaScript 异步编程
 |  |
@@ -270,4 +271,5 @@
 | [Node: path.resolve()](https://github.com/leslie1943/blog/issues/179). |
 | [Node: 使用fs模块完成文件的COPY](https://github.com/leslie1943/blog/issues/192). |
 | [Node: 创建目录-同步方式/异步方式](https://github.com/leslie1943/blog/issues/193). |
-
+| [Node: fs.createReadStream文件读取流操作步骤](https://github.com/leslie1943/blog/issues/196). |
+| [Node: Stream的背压机制(back pressure)](https://github.com/leslie1943/blog/issues/197). |
