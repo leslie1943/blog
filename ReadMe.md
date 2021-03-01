@@ -19,14 +19,14 @@
 ## 🚀 JavaScript 零散知识篇
 |  |
 | ---- |
-| [hasOwnProperty vs in](https://github.com/leslie1943/blog/issues/7). |
-| [Array.reduce的使用](https://github.com/leslie1943/blog/issues/8). |
-| [for-in vs for-of](https://github.com/leslie1943/blog/issues/10). |
-| [call vs apply](https://github.com/leslie1943/blog/issues/11). |
-| [context 作用域](https://github.com/leslie1943/blog/issues/12). |
-| [JavaScript中的this](https://github.com/leslie1943/blog/issues/14). |
-| [JavaScript中的闭包](https://github.com/leslie1943/blog/issues/15). |
-| [JavaScript 防抖(debounce)和节流(throttle)](https://github.com/leslie1943/blog/issues/16). |
+| [JavaScript: hasOwnProperty vs in](https://github.com/leslie1943/blog/issues/7). |
+| [JavaScript: Array.reduce的使用](https://github.com/leslie1943/blog/issues/8). |
+| [JavaScript: for-in vs for-of](https://github.com/leslie1943/blog/issues/10). |
+| [JavaScript: call vs apply](https://github.com/leslie1943/blog/issues/11). |
+| [JavaScript: context 作用域](https://github.com/leslie1943/blog/issues/12). |
+| [JavaScript: 中的this](https://github.com/leslie1943/blog/issues/14). |
+| [JavaScript: 中的闭包](https://github.com/leslie1943/blog/issues/15). |
+| [JavaScript: 防抖(debounce)和节流(throttle)](https://github.com/leslie1943/blog/issues/16). |
 | [JavaScript: 函数式编程-柯里化](https://github.com/leslie1943/blog/issues/39). |
 | [JavaScript: 原型链的理解](https://github.com/leslie1943/blog/issues/68). |
 | [JavaScript: 深拷贝与浅拷贝](https://github.com/leslie1943/blog/issues/72). |
@@ -36,6 +36,7 @@
 | [JavaScript: 函数声明 vs 函数定义](https://github.com/leslie1943/blog/issues/156). |
 | [JavaScript: 执行上下文和执行栈是什么?](https://github.com/leslie1943/blog/issues/194). |
 | [JavaScript: export default 和 export 的区别](https://github.com/leslie1943/blog/issues/198). |
+| [JavaScript: 使用ES6改变this指向](https://github.com/leslie1943/blog/issues/200). |
 
 ## 🚀 JavaScript 异步编程
 |  |
@@ -191,7 +192,6 @@
 | [Vue: Vue中的MVVM模型](https://github.com/leslie1943/blog/issues/191). |
 | [Vue: v-if和v-for为什么不建议同时使用](https://github.com/leslie1943/blog/issues/195). |
 
-
 ## 🚀 React
 |  |
 | ---- |
@@ -273,3 +273,4 @@
 | [Node: 创建目录-同步方式/异步方式](https://github.com/leslie1943/blog/issues/193). |
 | [Node: fs.createReadStream文件读取流操作步骤](https://github.com/leslie1943/blog/issues/196). |
 | [Node: Stream的背压机制(back pressure)](https://github.com/leslie1943/blog/issues/197). |
+| [Node: 单向链表的实现 one-way-linkedlist](https://github.com/leslie1943/blog/issues/199). |
