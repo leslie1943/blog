@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Bubbling</title>
+</head>
+
+<body>
+    <div id='div1'>
+        <p id='p1'>
+            <span id='span1'>Click Me 1!</span>
+        </p>
+    </div>
+    <hr>
+    <div id='div2'>
+        <p id='p2'>
+            <span id='span2'>Click Me 2!</span>
+        </p>
+    </div>
+    <script>
+        // 设置点击事件
+        var div1 = document.getElementById('div1')
+        var p1 = document.getElementById('p1')
+
+        var div2 = document.getElementById('div2')
+        var p2 = document.getElementById('p2')
+
+        function onClickFn(event) {
+            var tagName = event.currentTarget.tagName
+            // 1-捕获阶段
+            // 2-事件对象触发阶段
+            // 3-冒泡阶段
+            var phase = event.eventPhase
+            console.info(tagName, phase)
+        }
+        div1.addEventListener('click', onClickFn, false)
+        p1.addEventListener('click', onClickFn, false)
+
+        div2.addEventListener('click', onClickFn, true)
+        p2.addEventListener('click', onClickFn, true)
+        /*
+            点击 Click Me 1
+            输出结果:
+                P   3
+                DIV 3
+            可以看到, p 和 div 都是在冒泡阶段响应了事件, 由于冒泡的特性, 裹在内层的 p 率先 做出响应
+
+            点击 Click Me 2
+            输出结果:
+                DIV   1
+                P     1
+            可以看到, p 和 div 都是在捕获阶段响应了事件, div 比 p 标签先做出响应
+        */
+    </script>
+</body>
+
+</html>
