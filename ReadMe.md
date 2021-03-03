@@ -38,6 +38,7 @@
 | [JavaScript: export default 和 export 的区别](https://github.com/leslie1943/blog/issues/198). |
 | [JavaScript: 使用ES6改变this指向](https://github.com/leslie1943/blog/issues/200). |
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
+| [JavaScript: 事件模型如何理解](https://github.com/leslie1943/blog/issues/206). |
 
 ## 🚀 JavaScript 异步编程
 |  |
