@@ -2,7 +2,7 @@
 
 对于刚接触`TypeScript`泛型的读者来说, 首次看到`<T>`语法会感到陌生. 其实它没有什么特别,就像传递参数一样, 我们传递了我们想要用于特定函数调用的类型
 
-<img src="./../images/mds/ts-t-1.png">
+<img src="../../images/mds/ts-t-1.png">
 
 ```typescript
 function identity<T>(value: T) :T {
@@ -28,7 +28,7 @@ function identity<T, U>(value:T, message:U):T {
 console.info(identity<Number, string>(68,'leslie'))
 ```
 
-<img src="./../images/mds/ts-t-2.png">
+<img src="../../images/mds/ts-t-2.png">
 
 除了位类型变量显示设定值之外,一种更常见的做法是使编译器自动选择这些类型,从而使代码更简洁
 

@@ -7,7 +7,7 @@
 2. 函数执行上下文,存在无数个, 只有函数在被调用的时候才会被创建, 每次调用函数都会创建一个新的执行上下文
 3. `Eval`函数执行上下文, 指的是运行在`eval`函数中的代码, 很少用且不建议使用
 
-<img src="./../images/mds/context.jpg">
+<img src="../../images/mds/context.jpg">
 
 - 紫色框住的部分为全局上下文, 蓝色和橘色框起来的是不同的函数上下文, 只有全局上下文(的)变量能被其他任何上下文访问.
 - 可以有任意多个函数上下文, 每次调用函数创建一个新的上下文,会创建一个私有作用域, 函数内部生命的任何变量都不能在当前函数作用域外部直接访问
@@ -127,7 +127,7 @@ FunctionExectionContext = {
 
 ### 🎃 三: 执行栈
 - 执行栈: 也叫做调用栈, 后进先出的结构, 用于存储在代码执行期间创建的所有执行上下文.
-<img src="./../images/mds/exe-stack.jpg">
+<img src="../../images/mds/exe-stack.jpg">
 
 - 当Javascript引擎开始执行你第一行脚本代码的时候, 它就会创建一个全局执行上下文然后将它压到执行栈中
 - 每当引擎碰到一个函数的时候, 它就会创建一个函数执行上下文, 然后将这个执行上下文压到执行栈中
@@ -146,7 +146,7 @@ first();
 console.log('Inside Global Execution Context');
 ```
 
-<img src="./../images/mds/exe-order.jpg">
+<img src="../../images/mds/exe-order.jpg">
 
 简单分析一下流程：
 

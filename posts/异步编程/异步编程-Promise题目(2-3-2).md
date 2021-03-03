@@ -35,4 +35,4 @@ console.log('start')
 9. `宏2`中没有同步代码可执行了, 查找本次循环的微任务队列(`微2`), 发现了`promise2`, 执行它
 10. 第二轮执行完毕, 执行`宏3`, 打印出`timer2`
 
-<img src="../images/promise/2-3-2.png" height="400">
+<img src="../../images/promise/2-3-2.png" height="400">

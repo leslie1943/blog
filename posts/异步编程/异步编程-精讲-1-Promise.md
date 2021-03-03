@@ -57,7 +57,7 @@ ES6引入了Promise.在许多教程中, 你可能会读到这样的内容:
 
 我们可以使用一个接收一个回调函数的 Promise 构造器创建一个 promise.
 
-<img src="../images/promise/2.gif" height="300">
+<img src="../../images/promise/2.gif" height="300">
 
 等等, 刚刚得到的返回值是什么?
 
@@ -87,13 +87,13 @@ ES6引入了Promise.在许多教程中, 你可能会读到这样的内容:
 
 2. 第二个参数的值经常被叫做 `reject` 或 `rej`, 它也是一个函数, 在`Promise`出现一些错误应该被拒绝`reject`的时候调用
 
-<img src="../images/promise/3.png" height="300">
+<img src="../../images/promise/3.png" height="300">
 
 让我们尝试看看当我们调用 `resolve` 或 `reject` 方法时得到的日志.
 
 在例子中, 把 `resolve` 方法叫做 `res`, 把  `reject` 方法叫做 `rej`
 
-<img src="../images/promise/4.gif" height="300">
+<img src="../../images/promise/4.gif" height="300">
 
 太好了! 我们终于知道如何摆脱 `pending` 状态和 `undefined` 值了! 
 
@@ -128,7 +128,7 @@ function getImage(file){
 ```
 让我们看下当我们在终端运行这段代码时会发生什么？
 
-<img src="../images/promise/7.gif" height="300">
+<img src="../../images/promise/7.gif" height="300">
 
 非常酷!就像我们所期望的一样, `promise` 得到了解析数据后的值.
 
@@ -148,11 +148,11 @@ getImage(file)
 ```
 `.then` 方法接收传递给 `resolve` 方法的值.
 
-<img src="../images/promise/9.gif" height="300">
+<img src="../../images/promise/9.gif" height="300">
 
 `.catch` 方法接收传递给 `rejected` 方法的值.
 
-<img src="../images/promise/10.gif" height="300">
+<img src="../../images/promise/10.gif" height="300">
 
 最终, 我们拥有了 `promise` 被解决后 (`resolved`) 的值, 并不需要整个 `promise` 对象!
 
@@ -162,7 +162,7 @@ getImage(file)
 
 顺便提醒一下, 当你知道一个 `promise` 总是 `resolve` 或者总是 `reject` 的时候, 你可以写 `Promise.resolve` 或 `Promise.reject`, 传入你想要 `reject` 或 `resolve` 的 `promise` 的值.
 
-<img src="../images/promise/11.png" height="300">
+<img src="../../images/promise/11.png" height="300">
 
 在下边的例子中你将会经常看到这个语法. 
 
@@ -178,13 +178,13 @@ Promise.resolve(5) // Promise { 5 }
     .then(res => res * 2) // Promise { 80 }
     .then(res => res * 2) // Promise { 160 }
 ```
-<img src="../images/promise/12.png" height="300">
+<img src="../../images/promise/12.png" height="300">
 
 在 `getImage` 示例中, 为了传递被处理的图片到下一个函数, 我们可以链接多个 `then` 回调.
 
 相比于之前最终得到许多嵌套回调, 现在我们得到了整洁的 `then` 链.
 
-<img src="../images/promise/13.png" height="300">
+<img src="../../images/promise/13.png" height="300">
 
 完美! 这个语法看起来已经比之前的嵌套回调好多了.
 

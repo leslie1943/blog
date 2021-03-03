@@ -4,13 +4,13 @@
 ### tree diff: 只对比同一层的 dom 节点, 忽略 dom 节点的跨层级移动
 - 如下图, react 只会对相同颜色方框内的 DOM 节点进行比较, 即同一个父节点下的所有子节点.当发现节点不存在时, 则该节点及其子节点会被完全删除掉, 不会用于进一步的比较.
 
-<img src="./../images/mds/react-diff-1.png">
+<img src="../../images/mds/react-diff-1.png">
 
 - 这就意味着,如果 dom 节点发生了跨层级移动,react 会删除旧的节点,生成新的节点,而不会复用.
 
 ### component diff: 如果不是同一类型的组件, 删除旧的组件, 创建新的组件
 
-<img src="./../images/mds/react-diff-2.png">
+<img src="../../images/mds/react-diff-2.png">
 
 
 ### element diff: 对于同一层级的一组子节点, 需要通过唯一id进行区别

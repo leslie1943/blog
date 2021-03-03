@@ -84,7 +84,7 @@ console.info('blob', blob)
 # ✅ File
 - `File`对象是一种特殊的`Blob`对象, 继承了所有`Blob`的属性和方法, 当然同样也可以用作`formData`二进制文件上传.
 
-<img src="./../blob/file-get.png" height="200">
+<img src="../../blob/file-get.png" height="200">
 
 - 下面我们分别使用input和拖放方式选择多张图片操作👇:
 - 
@@ -148,7 +148,7 @@ console.info('blob', blob)
 # ✅ 数据缓冲区
 - 从`XHR`,`File API`,`Canvas`等各种地方, 读取了一大串字节流, 如果用`JS`里的`Array`去存, 又浪费, 又低效. 在编程中, `数据缓冲区`(或简称为缓冲区) 是物理内存中操作二进制数据的存储区(比硬盘驱动器访问快),用于在数据从也给位置移动到另一位置时存储临时数据. `解释器`借助存储二进制数据的内容缓冲区读取行. 主内存中又一个正在运行的文件, 如果解释器必须返回文件以读取每个`字节`, 则执行过程将耗费大量时间. 为了防止这种情况, JavaScript使用数据缓冲区, 该缓冲区将一些`字节`存储在一起, 然后将所有`字节`一起发送给解释器. 这样, JavaScript解释就不必担心从文件数据中检索文件. 这种方法节省了执行时间并加快了应用程序的速度. 各种缓冲区能对数据执行有效的二进制操作. 包括`File`, `Blob`,`ArrayBuffer`和`Array`. 选择的方法决定了内存缓冲区的内部结构.
 
-<img src="./../blob/data-buffer-area.png" height="200">
+<img src="../../blob/data-buffer-area.png" height="200">
 
 # ✅ Buffer
 - `Buffer`是`Node.js`的对象,前端没有. 它一般应用于`IO操作`, 例如接收前端请求数据的时候, 可以通过`Buffer`相关的`API`创建一个专门存放二进制数据的缓存区对接收到的前端数据进行整合, 一个`Buffer`类似于一个整数数组, 它对于`V8`堆内存之外的一块原始内存
@@ -157,7 +157,7 @@ console.info('blob', blob)
 - `ArrayBuffer`表示固定长度的二进制数据的原始缓冲区, 它的作用是分批一段可以存放数据的连续内存区域. 因此对于高密度的访问（如音频数据）操作而言它比JS中的Array速度会快很多,ArrayBuffer存在的意义就是作为数据源提前写入在内存中,因此其长度固定.
 - `ArrayBuffer`的功能
 
-<img src="./../blob/arraybuffer-fun.png" height="200">
+<img src="../../blob/arraybuffer-fun.png" height="200">
 
 - `ArrayBuffer` 对象的构造函数如下(length表示`ArrayBuffer`的长度)👇:
 ```js
@@ -201,7 +201,7 @@ ArrayBuffer(length)
 
 - 类型转换如图👇:
 
-<img src="./../blob/typedArrays-types.png" height="200">
+<img src="../../blob/typedArrays-types.png" height="200">
 
 - 举一些代码例子展示如何转换:
 ```js
@@ -222,7 +222,7 @@ console.info('v2', v2)
 var v3 = new Int16Array(b, 2, 2) // Int16Array(2) [0, 0]
 
 ```
-<img src="./../blob/typedArrays-types-demo.png" height="200">
+<img src="../../blob/typedArrays-types-demo.png" height="200">
 
 - 因为普通 `Javascript` 数组使用的是`Hash`查找方式, 而类型化数组直接访问固定内存, 因此, 速度很赞, 比传统数组要快! 同时, 类型化数组天生处理二进制数据, 这对于 `XMLHttpRequest`, `canvas`, `webGL` 等技术有着先天的优势.
 
@@ -396,7 +396,7 @@ reader.readAsDataURL(blob) // data:text/xml;base64,PHhtbD5mb288L3htbD4=
 - `data`: 数据本身
 
 ## 🚀 如何获取 dataURL
-<img src="./../blob/get-dataUrl.png" height="200">
+<img src="../../blob/get-dataUrl.png" height="200">
 
 1. 上面示例中使用的方法 `readAsDataURL()` 就是将 `Blob` 转化为 `Base64` 格式的 `DataUrl`
 2. 使用原生 `Web API` 编码/解码
@@ -562,7 +562,7 @@ Canvas提供了 toDataURL方法, 用于获取canvas绘制内容, 将其转为bas
 ```
 6. `DataUrl` 不会被浏览器缓存,这意味着每次访问这样页面时都被下载一次. 这是一个使用效率方面的问题——尤其当这个图片被整个网站大量使用的时候. 但是小部分可以通过`css`缓存 
 
-<img src="./../blob/dataurl-cache.png" height="400">
+<img src="../../blob/dataurl-cache.png" height="400">
 
 
 
@@ -716,7 +716,7 @@ var blob = new Blob(['Hello World!'], {type: 'text/plain'}); // Blob {size: 12, 
     
 ```
 
-<img src="./../blob/transfomer.png">
+<img src="../../blob/transfomer.png">
 
 # ✅ 应用场景
 - 图像灰度化 - `h-5-1-usage-gray.html`
