@@ -35,7 +35,6 @@
 | [JavaScript: null 和 undefined的区别](https://github.com/leslie1943/blog/issues/94). |
 | [JavaScript: 函数声明 vs 函数定义](https://github.com/leslie1943/blog/issues/156). |
 | [JavaScript: 执行上下文和执行栈是什么?](https://github.com/leslie1943/blog/issues/194). |
-| [JavaScript: export default 和 export 的区别](https://github.com/leslie1943/blog/issues/198). |
 | [JavaScript: 使用ES6改变this指向](https://github.com/leslie1943/blog/issues/200). |
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
 | [JavaScript: 事件模型如何理解](https://github.com/leslie1943/blog/issues/206). |
@@ -225,7 +224,6 @@
 | [React: Diff 简短的总结](https://github.com/leslie1943/blog/issues/185). |
 | [React: Hooks为什么不能放在条件判断中](https://github.com/leslie1943/blog/issues/186). |
 | [React: $$typeof是什么 和 JSX中的组件名要以大写字母](https://github.com/leslie1943/blog/issues/188). |
-| [React: 深入高阶组件](https://github.com/leslie1943/blog/issues/191). |
 
 ## 🚀 TypeScript
 |  |
