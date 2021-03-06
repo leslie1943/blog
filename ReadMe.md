@@ -37,7 +37,7 @@
 | [JavaScript: 执行上下文和执行栈是什么?](https://github.com/leslie1943/blog/issues/194). |
 | [JavaScript: 使用ES6改变this指向](https://github.com/leslie1943/blog/issues/200). |
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
-| [JavaScript: 事件模型如何理解](https://github.com/leslie1943/blog/issues/206). |
+| [JavaScript: 栈和堆](https://github.com/leslie1943/blog/issues/211). |
 
 ## 🚀 JavaScript 异步编程
 |  |
@@ -193,7 +193,7 @@
 | [Vue: Vue中的MVVM模型](https://github.com/leslie1943/blog/issues/191). |
 | [Vue: v-if和v-for为什么不建议同时使用](https://github.com/leslie1943/blog/issues/195). |
 | [Vue3: Vue3性能提升通过哪几方面体现的?](https://github.com/leslie1943/blog/issues/207). |
-| [Vue3: Composition Api 与 Options ](https://github.com/leslie1943/blog/issues/208). |
+| [Vue3: Composition Api 与 Options Api](https://github.com/leslie1943/blog/issues/208). |
 | [Vue3: 响应式系统的实现原理](https://github.com/leslie1943/blog/issues/209). |
 
 ## 🚀 React
