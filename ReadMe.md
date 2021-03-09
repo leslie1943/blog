@@ -38,6 +38,8 @@
 | [JavaScript: 使用ES6改变this指向](https://github.com/leslie1943/blog/issues/200). |
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
 | [JavaScript: 栈和堆](https://github.com/leslie1943/blog/issues/211). |
+| [JavaScript: 深拷贝浅拷贝的区别,如何实现一个深拷贝?](https://github.com/leslie1943/blog/issues/212). |
+
 
 ## 🚀 JavaScript 异步编程
 |  |
@@ -162,6 +164,7 @@
 | ---- |
 | [性能优化: 24 条建议(上)](https://github.com/leslie1943/blog/issues/40). |
 | [性能优化: 24 条建议(下)](https://github.com/leslie1943/blog/issues/41). |
+
 
 ## 🚀 Vue
 |  |
