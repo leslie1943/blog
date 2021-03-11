@@ -85,5 +85,15 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
   # _id 保留用作主键
   # 字段名称不能包含空字符
   # 建议不要使用 $, 开头和中间都不建议使用
-
 ```
+- 查询相关
+
+| MongoDB | SQL | 描述 |
+| ---- | ---- | ---- |
+| db.inventory.find( {} ) |  SELECT * FROM inventory | 查询全部 | 
+| db.inventory.find( {},{file1:1, field2:1} ) |  - | 指定返回的文档字段 | 
+| db.inventory.find( {status: 'D' }) | SELECT * FROM inventory WHERE status="D" | 相等条件查询 | 
+| db.inventory.find( {status: 'A', qty:{$lt: 30} }) | SELECT * FROM inventory WHERE status="A" AND qty < 30 | 指定 AND 条件 | 
+| db.inventory.find({$or: [{status: "A"}, {qty:{$lt : 30} ]}) | SELECT * FROM inventory WHERE status="A" OR qty < 30 | 指定 OR 条件 | 
+| db.inventory.find({status: 'A', $or: [{qty: {$lt: 30}}, { item: /^p/}]}) | SELECT * FROM inventory WHERE status="A" AND ( qty < 30 OR item LIKE "p%" ) | 指定 AND 和 OR 条件 | 
+| db.inventory.find({status: {$in:["A","D"]}}) | SELECT * FROM inventory WHERE status in ("A", "D") | 使用查询运算符指定条件 | 

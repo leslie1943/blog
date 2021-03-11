@@ -227,7 +227,10 @@
 | [React: Diff 简短的总结](https://github.com/leslie1943/blog/issues/185). |
 | [React: Hooks为什么不能放在条件判断中](https://github.com/leslie1943/blog/issues/186). |
 | [React: $$typeof是什么 和 JSX中的组件名要以大写字母](https://github.com/leslie1943/blog/issues/188). |
-| [React: Hooks-1](https://github.com/leslie1943/blog/issues/213). |
+| [React: React-Hooks 设计动机与工作模式-1](https://github.com/leslie1943/blog/issues/213). |
+| [React: React-Hooks 设计动机与工作模式-2](https://github.com/leslie1943/blog/issues/214). |
+| [React: 数据是如何在 React 组间之间流动的-1](https://github.com/leslie1943/blog/issues/215). |
+| [React: 数据是如何在 React 组间之间流动的-2](https://github.com/leslie1943/blog/issues/216). |
 
 ## 🚀 TypeScript
 |  |
