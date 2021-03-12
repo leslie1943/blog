@@ -1,3 +1,17 @@
+### 🚀 Vue3 创建步骤
+- 首先安装脚手架:
+```bash
+    # npm install -g @vue/cli (已经安装过的就不用了)
+    # yarn global add @vue/cli (已经安装过的就不用了)
+```
+- 执行命令
+```bash
+`vue create <project_name>` 一直按照提示选择即可
+```
+- 安装 `element-next`: `npm install element-plus --save`
+
+- 基础的 `Vue3+Element-Plus` 项目: `git clone https://github.com/leslie1943/vue3-element-plus-base-cli.git`
+
 ### 🚀 初始化一个Vite项目
 1. 初始项目: `npm init @vitejs/app <project_name> --template vue-ts`
 2. 配置路由: `npm install vue-router@4 --save`
@@ -30,10 +44,67 @@ export default defineConfig({
   plugins: [vue(), vuejsx({})] 
 }
 ```
-
 ### 🚀 让 vite 支持 sass/scss
 - 安装依赖: `npm install sass -D`
 - 重新运行: `npm run dev`
+
+### 🚀 Vite Release 发布
+- npm run build: 生成`dist`
+- 将`dist`整体 拷贝至 `nginx/html`目录下
+- `start nginx`: 启动 `nginx` 服务
+- `nginx -s reload`: 重启 `nginx` 服务
+- 浏览器查看`http://localhost:3343/`: `2000`是`3343`配置的端口
+
+### 🚀 Vite Release 发布 Nginx 代理配置
+1. ✅ 在`项目中`的配置, 遇到 `/gdszyepro` 转换成 `https://epro-ps231-gdszy.test.viewchain.net/gdszyepro`
+2. ✅ 在`项目中`的配置, 遇到 `/api` 转换成 `https://gitlab.devops.viewchain.net`
+```js
+// vite.config.ts
+server: {
+    port: 3343, //启动端口
+    open: true,
+    proxy: {
+      '/gdszyepro': {
+        target: 'https://epro-ps231-gdszy.test.viewchain.net/gdszyepro',
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/gdszyepro/, ''),
+      },
+       '/api': {
+        target: 'https://gitlab.devops.viewchain.net',
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, '/api'),
+      },
+    },
+    cors: true,
+  }
+```
+2. ✅ 对应的在`nginx`的配置
+```nginx
+  server {
+    server_name  localhost;
+    listen       3343;
+
+    # 🔶🔷 这里是重点 🔶🔷
+    location /gdszyepro {
+        proxy_pass https://epro-ps231-gdszy.test.viewchain.net/gdszyepro; # 🔶🔷 这里是重点 🔷🔶
+    }
+
+    # 🔶🔷 这里是重点 🔶🔷
+    location /api {
+        proxy_pass https://gitlab.devops.viewchain.net; # 🔶🔷 这里是重点 🔷🔶
+    }
+
+    location / {
+        root   html/dist;
+        index  index.html index.htm;
+        try_files  $uri $uri/ /index.html;
+    }
+  }
+```
+- 如果缺少了以上的配置, 启动服务后调用接口的时候可能会出现 `405 Not Allowed`, 访问页面报405错误
+
 
 ### 🚀 使用 curl 模拟POST 请求
 - curl -v -X POST -d "'name':'suzhen'" http://localhost:1234/
@@ -97,3 +168,13 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 | db.inventory.find({$or: [{status: "A"}, {qty:{$lt : 30} ]}) | SELECT * FROM inventory WHERE status="A" OR qty < 30 | 指定 OR 条件 | 
 | db.inventory.find({status: 'A', $or: [{qty: {$lt: 30}}, { item: /^p/}]}) | SELECT * FROM inventory WHERE status="A" AND ( qty < 30 OR item LIKE "p%" ) | 指定 AND 和 OR 条件 | 
 | db.inventory.find({status: {$in:["A","D"]}}) | SELECT * FROM inventory WHERE status in ("A", "D") | 使用查询运算符指定条件 | 
+
+
+
+### 🚀 Flutter 在 VS code 启动
+- `flutter emulators --launch LeslieAVD`
+- `flutter run`
+
+### 🚀 Gatsby 脚手架
+- `npm install gatsby-cli -g`
+- `gatsby new react-gatsby-guide https://github.com/gatsbyjs/gatsby-starter-hello-world`
