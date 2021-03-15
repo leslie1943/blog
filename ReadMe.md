@@ -198,6 +198,9 @@
 | [Vue3: Vue3性能提升通过哪几方面体现的?](https://github.com/leslie1943/blog/issues/207). |
 | [Vue3: Composition Api 与 Options Api](https://github.com/leslie1943/blog/issues/208). |
 | [Vue3: 响应式系统的实现原理](https://github.com/leslie1943/blog/issues/209). |
+| [React vs Vue](https://github.com/leslie1943/blog/issues/219). |
+| [Vue: Vue也是单向数据流](https://github.com/leslie1943/blog/issues/220). |
+| [Vue: 为什么Vue实例只允许有一个根节点](https://github.com/leslie1943/blog/issues/221). |
 
 ## 🚀 React
 |  |
