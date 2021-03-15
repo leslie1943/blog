@@ -201,6 +201,7 @@
 | [React vs Vue](https://github.com/leslie1943/blog/issues/219). |
 | [Vue: Vue也是单向数据流](https://github.com/leslie1943/blog/issues/220). |
 | [Vue: 为什么Vue实例只允许有一个根节点](https://github.com/leslie1943/blog/issues/221). |
+| [Vue: Vue中通过JSON数据导出excel(带合并的)](https://github.com/leslie1943/blog/issues/222). |
 
 ## 🚀 React
 |  |
