@@ -204,6 +204,7 @@
 | [Vue: Vue中通过JSON数据导出excel(带合并的)](https://github.com/leslie1943/blog/issues/222). |
 | [Vue: Vue响应式详解](https://github.com/leslie1943/blog/issues/223). |
 | [Vue: Vue 性能优化](https://github.com/leslie1943/blog/issues/224). |
+| [Vue: 动态绑定 class 样式](https://github.com/leslie1943/blog/issues/225). |
 
 ## 🚀 React
 |  |
