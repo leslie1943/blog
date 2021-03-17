@@ -39,7 +39,8 @@
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
 | [JavaScript: 栈和堆](https://github.com/leslie1943/blog/issues/211). |
 | [JavaScript: 深拷贝浅拷贝的区别,如何实现一个深拷贝?](https://github.com/leslie1943/blog/issues/212). |
-| [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/225). |
+| [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/226). |
+<!-- | [JavaScript: 函数式编程的理解](https://github.com/leslie1943/blog/issues/xxx). | -->
 
 
 ## 🚀 JavaScript 异步编程
@@ -241,6 +242,7 @@
 | [React: 数据是如何在 React 组间之间流动的-2](https://github.com/leslie1943/blog/issues/216). |
 | [React: 理解React Fiber的架构的设计思想](https://github.com/leslie1943/blog/issues/217). |
 | [React: 理解React Fiber的架构的工作原理及数据结构](https://github.com/leslie1943/blog/issues/218). |
+| [React: 什么是虚拟DOM?](https://github.com/leslie1943/blog/issues/227). |
 
 ## 🚀 TypeScript
 |  |
