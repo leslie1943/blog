@@ -1,5 +1,4 @@
 ### JavaScript: 原型和原型链
-- `原型`: 一个函数可以看作是一个类, 原型是所有类上都有的一个属性, 原型的作用就是给这个类的每个对象都添加一个统一的方法/属性.
 - `prototype`: 每个函数都会有这个属性, 这里强调, <font color="#FF0000">是函数</font>,  <font color="#409FEE">普通对象</font>没有这个属性.(为什么说是普通对象呢,JS中,一切皆为对象,所以这里的普通对象不包括函数对象). `prototype`是构造函数的原型对象
 - `__proto__`: 每个对象都有这个属性, 这里强调, <font color="#FF0000">是对象</font>, 同样函数也是对象, 所有函数也有这个属性. 它指向构造函数(创建实例的类)的原型对象 <也就是说对象的 `__proto__` 指向创建这个对象的类的原型对象`prototype`>
 - `constructor`: 原型对象(`prototype`)上的一个指向构造函数的属性, 就是说 类的原型对象上constructor指向类本身(`Class.prototype.constructor===Class`)
