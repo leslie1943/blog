@@ -39,6 +39,7 @@
 | [JavaScript: new操作符具体都干了什么](https://github.com/leslie1943/blog/issues/203). |
 | [JavaScript: 栈和堆](https://github.com/leslie1943/blog/issues/211). |
 | [JavaScript: 深拷贝浅拷贝的区别,如何实现一个深拷贝?](https://github.com/leslie1943/blog/issues/212). |
+| [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/225). |
 
 
 ## 🚀 JavaScript 异步编程
