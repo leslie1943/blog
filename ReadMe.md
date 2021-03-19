@@ -40,7 +40,7 @@
 | [JavaScript: 栈和堆](https://github.com/leslie1943/blog/issues/211). |
 | [JavaScript: 深拷贝浅拷贝的区别,如何实现一个深拷贝?](https://github.com/leslie1943/blog/issues/212). |
 | [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/226). |
-<!-- | [JavaScript: 函数式编程的理解](https://github.com/leslie1943/blog/issues/xxx). | -->
+| [JavaScript: forEach 和 map](https://github.com/leslie1943/blog/issues/228). |
 
 
 ## 🚀 JavaScript 异步编程
@@ -122,6 +122,8 @@
 | [webpack 如何优化 Webpack 的构建速度](https://github.com/leslie1943/blog/issues/22). |
 | [webpack 提高效率的插件](https://github.com/leslie1943/blog/issues/23). |
 | [webpack 文件指纹是什么](https://github.com/leslie1943/blog/issues/24). |
+| [Webpack devServer的配置解析](https://github.com/leslie1943/blog/issues/230). |
+| [Webpack resolve 的配置](https://github.com/leslie1943/blog/issues/231). |
 
 ## 🚀 网络安全
 |  |
@@ -243,6 +245,7 @@
 | [React: 理解React Fiber的架构的设计思想](https://github.com/leslie1943/blog/issues/217). |
 | [React: 理解React Fiber的架构的工作原理及数据结构](https://github.com/leslie1943/blog/issues/218). |
 | [React: 什么是虚拟DOM?](https://github.com/leslie1943/blog/issues/227). |
+| [React: 什么是虚拟DOM?](https://github.com/leslie1943/blog/issues/229). |
 
 ## 🚀 TypeScript
 |  |

@@ -8,7 +8,7 @@
 - `Context API` 有3个关键的要素: `React.createContext`, `Provider`, `Consumer`
 - 调用`Context API`创建出一组`Provider`, `Provider`作为数据的提供方, 可以将数据下发给自身组件树中任意层级的`Consumer`
   
-<img src="./React-data-contextAPI.png" height="500px"/>
+<img src="../../images/react/React-data-contextAPI.png" height="500px"/>
 
 - `Consumer`不仅能够读取到`Provider`下发的数据,还能读取到这些数据后续的更新 ==> 数据在`provider`和`consumer`之间能够及时同步
 
@@ -23,7 +23,7 @@ const AppContext = React.createContext(defaultValue)
 const {Provider, Consumer} = AppContext
 ```
 
-- `Provider`: 数据的提供者, 使用 `Provider组件`对组件树中的跟组件进行包裹,然后传入`value`的属性, 这个`value`就是后续在组件中流动的数据,可以被`Consumer`消费
+- `Provider`: 数据的提供者, 使用 `Provider组件`对组件树中的根组件进行包裹,然后传入`value`的属性, 这个`value`就是后续在组件中流动的数据,可以被`Consumer`消费
 ```js
 <Provider value={title: this.state.title, content: this.state.content}>
     <Title />
@@ -85,7 +85,7 @@ MessageList.childContextTypes = {
   color: PropTypes.string
 };
 ```
-<img src="./React-data-contextAPI-old.png" height="500px">
+<img src="../../images/react/React-data-contextAPI-old.png" height="500px">
 
 - 首先, 通过给 `MessageList` 设置 `childContextTypes` 和 `getChildContext`, 可以使其承担起 `context` 的生产者的角色
 - 然后, `MessageList` 的组件树内部所有层级的组件都可以通过定义 `contextTypes` 来成为数据的消费者, 进而通过 `this.context` 访问到 `MessageList` 提供的数据.
@@ -110,7 +110,7 @@ MessageList.childContextTypes = {
 - `Redux`是为`JavaScript`应用而生的,也就是说它不是`React`的专利, `React` 可以使用,`Vue` 可以使用, `原生JS`也可以使用
 - `Redux`是一个状态容器: `存放公共数据的仓库`
 
-<img src="./React-Redux-overview.png" height="400px">
+<img src="../../images/react/React-Redux-overview.png" height="400px">
 
 ##### Redux是如何管理数据的?
 - `Redux`分为三部分
@@ -126,7 +126,7 @@ const action = {
 
 - `redux`的工作流: <font color="#ff0000">在Redux的整个过程中, 数据流是严格单向的</font>
   
-<img src="./React-Redux-data-flow.png" height="400px">
+<img src="../../images/react/React-Redux-data-flow.png" height="400px">
 
 - 对于一个 `React` 应用来说, 视图`View`层面的所有数据`State`都来自`Store` ====> 单一数据源的原则
 - 修改数据: `dispatch action` => `commit reducer` => `update store`
@@ -166,4 +166,4 @@ const action = {
 ```
 - 4. 派发`action`,使用`dispatch`: `action`本身只是一个对象, 要让`reducer`感知到`action`,需要`store.dispatch(action)`
 
-<img src="./React-Redux-data-flow-.png" height="400px">
+<img src="../../images/react/React-Redux-data-flow-.png" height="400px">

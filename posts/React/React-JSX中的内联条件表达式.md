@@ -13,7 +13,7 @@
         }
     }
 ```
-- 如果指向判断 `if`
+- 执行判断 `if`
 ```js
     function Message(){
         render(){
