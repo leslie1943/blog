@@ -245,7 +245,8 @@
 | [React: 理解React Fiber的架构的设计思想](https://github.com/leslie1943/blog/issues/217). |
 | [React: 理解React Fiber的架构的工作原理及数据结构](https://github.com/leslie1943/blog/issues/218). |
 | [React: 什么是虚拟DOM?](https://github.com/leslie1943/blog/issues/227). |
-| [React: 什么是虚拟DOM?](https://github.com/leslie1943/blog/issues/229). |
+| [React: Redux-saga 使用步骤](https://github.com/leslie1943/blog/issues/229). |
+| [React: React为什么不实现数据的双向绑定](https://github.com/leslie1943/blog/issues/232). |
 
 ## 🚀 TypeScript
 |  |
