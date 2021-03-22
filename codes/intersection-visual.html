@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .target {
+            margin: 5px;
+            width: 20px;
+            height: 20px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <script>
+        const $container = $(".container");
+
+        // 插入 100000 个 <div class="target"></div>
+        function createTargets() {
+            const htmlString = new Array(100000)
+                .fill('<div class="target"></div>')
+                .join("");
+            $container.html(htmlString);
+        }
+
+        function isInViewPort(element) {
+            const viewWidth = window.innerWidth || document.documentElement.clientWidth;
+            const viewHeight =
+                window.innerHeight || document.documentElement.clientHeight;
+            const { top, right, bottom, left } = element.getBoundingClientRect();
+
+            return top >= 0 && left >= 0 && right <= viewWidth && bottom <= viewHeight;
+        }
+        $(window).on("scroll", () => {
+            console.log("scroll !");
+            $targets.each((index, element) => {
+                if (isInViewPort(element)) {
+                    $(element).css("background-color", "yellow");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

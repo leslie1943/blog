@@ -41,6 +41,7 @@
 | [JavaScript: 深拷贝浅拷贝的区别,如何实现一个深拷贝?](https://github.com/leslie1943/blog/issues/212). |
 | [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/226). |
 | [JavaScript: forEach 和 map](https://github.com/leslie1943/blog/issues/228). |
+| [JavaScript: 判断一个元素是否出现在可视区域中](https://github.com/leslie1943/blog/issues/234). |
 
 
 ## 🚀 JavaScript 异步编程
@@ -209,6 +210,7 @@
 | [Vue: Vue响应式详解](https://github.com/leslie1943/blog/issues/223). |
 | [Vue: Vue 性能优化](https://github.com/leslie1943/blog/issues/224). |
 | [Vue: 动态绑定 class 样式](https://github.com/leslie1943/blog/issues/225). |
+| [Vue: 路由守卫 Router Guards](https://github.com/leslie1943/blog/issues/233). |
 
 ## 🚀 React
 |  |
