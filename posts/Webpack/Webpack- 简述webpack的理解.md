@@ -10,7 +10,7 @@
 
 - `Output` 属性告诉 `webpack` 在哪里输出它所创建的打包文件, 也可指定打包文件的名称, 默认位置为 ./dist.
 
-- `loader` 可以理解为 `webpack` 的编译器, 它使得 `webpack` 可以处理一些非 JavaScript 文件.在对 loader 进行配置的时候, test 属性, 标志有哪些后缀的文件应该被处理, 是一个正则表达式.use 属性, 指定 test 类型的文件应该使用哪个 loader 进行预处理.常用的 loader 有 css-loader、style-loader 等.
+- `loader` 可以理解为 `webpack` 的编译器, 它使得 `webpack` 可以处理一些非 `JavaScript` 文件.在对 `loader` 进行配置的时候, `test` 属性, 标志有哪些后缀的文件应该被处理, 是一个正则表达式`.use `属性, 指定 `test` 类型的文件应该使用哪个 `loader` 进行预处理.常用的 `loader` 有 `css-loader`、`style-loader` 等.
 
 - `Plugin` 插件可以用于执行范围更广的任务, 包括打包、优化、压缩、搭建服务器等等, 要使用一个插件, 一般是先使用 npm 包管理器进行安装, 然后在配置文件中引入, 最后将其实例化后传递给 plugins 数组属性.
 
