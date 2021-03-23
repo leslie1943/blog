@@ -42,6 +42,8 @@
 | [JavaScript: 原型和原型链?](https://github.com/leslie1943/blog/issues/226). |
 | [JavaScript: forEach 和 map](https://github.com/leslie1943/blog/issues/228). |
 | [JavaScript: 判断一个元素是否出现在可视区域中](https://github.com/leslie1943/blog/issues/234). |
+| [JavaScript: 如何将浮点数点左边的数每三位添加一个逗号](https://github.com/leslie1943/blog/issues/235). |
+<!-- | [JavaScript: ES6、ES7、ES8、ES9、ES10、ES11、ES12](https://github.com/leslie1943/blog/issues/237). | -->
 
 
 ## 🚀 JavaScript 异步编程
@@ -125,6 +127,7 @@
 | [webpack 文件指纹是什么](https://github.com/leslie1943/blog/issues/24). |
 | [Webpack devServer的配置解析](https://github.com/leslie1943/blog/issues/230). |
 | [Webpack resolve 的配置](https://github.com/leslie1943/blog/issues/231). |
+| [Webpack- 简述webpack的理解](https://github.com/leslie1943/blog/issues/236). |
 
 ## 🚀 网络安全
 |  |
