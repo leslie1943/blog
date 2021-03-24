@@ -215,6 +215,7 @@
 | [Vue: Vue 性能优化](https://github.com/leslie1943/blog/issues/224). |
 | [Vue: 动态绑定 class 样式](https://github.com/leslie1943/blog/issues/225). |
 | [Vue: 路由守卫 Router Guards](https://github.com/leslie1943/blog/issues/233). |
+| [Vue: 为什么Vue的虚拟DOM比React虚拟DOM性能好](https://github.com/leslie1943/blog/issues/238). |
 
 ## 🚀 React
 |  |
