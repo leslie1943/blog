@@ -178,3 +178,16 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 ### 🚀 Gatsby 脚手架
 - `npm install gatsby-cli -g`
 - `gatsby new react-gatsby-guide https://github.com/gatsbyjs/gatsby-starter-hello-world`
+
+
+### 🚀 解决 vue element ui querySelector of undefined
+- 方法1: 更改版本
+- 方法2: 添加 css
+```css
+ .el-table thead,
+
+ .el-table__header-wrapper {
+  display: none;
+
+}
+```
