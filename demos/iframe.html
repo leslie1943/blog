@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        window.title = 'sss'
+        // ---------------------------  STEP-1 项目1中 ---------------------------
+        // 获取 token
+        // var token = result.data.token
+        var token = "token value"
+        var message = 'Hello!  The time is: ' + (new Date().getTime())
+        var domain = 'http://localhost:8080/#/'
+        // https://epro.test.viewchain.net/
+
+        // 动态创建一个不可见的iframe, 在iframe中加载一个跨域HTML
+        var iframe = document.createElement("iframe")
+        iframe.style.width = '100vw'
+        iframe.style.height = '100vh'
+        iframe.src = domain
+
+        // 添加到页面
+        document.body.append(iframe)
+
+
+        // 使用postMessage()方法将token传递给iframe
+        setTimeout(function () {
+            console.info('iframe', iframe.contentWindow)
+            iframe.contentWindow.postMessage(message, domain)
+        }, 4000)
+
+        // 移除
+        setTimeout(function () {
+            iframe.remove()
+        }, 6000)
+
+        // --------------------------- STEP-2 要跨域的项目2的 ---------------------------
+        // 在这个iframe所加载的HTML中绑定一个事件监听器, 当事件被触发时, 把接收到的token数据写入localStorage
+        // 接收数据: 监听message事件的发生
+        window.addEventListener('message', function (event) {
+            console.info('event', event.target.message)
+            localStorage.setItem('token', event.target.message)
+        }, false)
+    </script>
+</body>
+
+</html>

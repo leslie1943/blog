@@ -291,6 +291,8 @@
 | [Other: Canvas.toDataURL](https://github.com/leslie1943/blog/issues/159). |
 | [Other: 文件的分片上传](https://github.com/leslie1943/blog/issues/160). |
 | [Other: cookies,sessionStorage 和 localStorage](https://github.com/leslie1943/blog/issues/182). |
+| [Other: 什么是单点登录 sso ](https://github.com/leslie1943/blog/issues/239). |
+| [Other: 单点登录的代码实现 vue 为例 ](https://github.com/leslie1943/blog/issues/240). |
 
 
 ## 🚀 Node.js 

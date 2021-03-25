@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postMessage</title>
+</head>
+
+<body>
+    <iframe id="myIFrame"></iframe>
+    <script>
+        //捕获iframe   
+        var domain = 'http://localhost:8080';
+        // var iframe = document.createElement("iframe")
+        // iframe.style.width = '100vw'
+        // iframe.style.height = '100vh'
+        // iframe.src = domain
+
+        // 添加到页面
+        // document.body.append(iframe)
+        var iframe = document.getElementById('myIFrame')
+        iframe.src = domain
+
+        //发送消息   
+        setTimeout(function () {
+            // var message = { name: "站点", sex: "男" };
+            var message = 'Hello!  The time is: ' + (new Date().getTime())
+            console.log('传递的数据是:  ' + message);
+            var message = {
+                time: 'Hello!  The time is: ' + (new Date().getTime()),
+                id: 'suzhen'
+            }
+            //send the message and target URI   
+            iframe.contentWindow.postMessage(JSON.stringify(message), domain);
+        }, 4000);
+
+        // 移除
+        setTimeout(function () {
+            iframe.remove()
+        }, 6000)
+
+    </script>
+</body>
+
+</html>

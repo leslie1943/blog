@@ -191,3 +191,44 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 
 }
 ```
+
+### 🚀 Vite 引入全局的 scss 预设样式
+在`vite.config.js`下添加`css`属性
+```js
+export default {
+  // plugins: {....},
+  // base: {....},
+  // resolve: {....},
+  // server: {....},
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // 路径是当前 vite.config.js 相关路径
+        additionalData: '@import "./src/assets/scss/all.scss";',
+      },
+    },
+  },
+}
+```
+
+### 🚀 Vite 路由懒加载 支持 tsx 和 vue 文件
+```ts
+// 在 shims-vue.d.ts 文件中 加入以下声明
+declare module '*.vue' {
+  import { DefineComponent } from 'vue'
+  const component: DefineComponent<{}, {}, any>
+  export default component
+}
+
+declare module '*.tsx' {
+  import { DefineComponent } from 'vue'
+  const component: DefineComponent<{}, {}, any>
+  export default component
+}
+```
+- 在引入路由文件时需要加后缀
+```bash
+  # component: () => import('@/views/Home/index.vue'),
+  # component: () => import('@/views/Login/index.tsx'),
+```
+
