@@ -218,6 +218,7 @@
 | [Vue: 动态绑定 class 样式](https://github.com/leslie1943/blog/issues/225). |
 | [Vue: 路由守卫 Router Guards](https://github.com/leslie1943/blog/issues/233). |
 | [Vue: 为什么Vue的虚拟DOM比React虚拟DOM性能好](https://github.com/leslie1943/blog/issues/238). |
+| [Vue: Vue3中的样式穿透 deep的使用](https://github.com/leslie1943/blog/issues/242). |
 
 ## 🚀 React
 |  |
