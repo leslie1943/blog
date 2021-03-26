@@ -141,6 +141,8 @@
 | [网络安全: Nginx 反向代理](https://github.com/leslie1943/blog/issues/33). |
 | [网络安全: 跨站伪造请求-CSRF](https://github.com/leslie1943/blog/issues/34). |
 | [网络安全: 跨站攻击脚本-XSS](https://github.com/leslie1943/blog/issues/35). |
+| [网络安全: 浅入浅出读懂XSS及防御措施](https://github.com/leslie1943/blog/issues/241). |
+| [网络安全: 浅入浅出读懂CSRF及防御措施](https://github.com/leslie1943/blog/issues/242). |
 
 ## 🚀 CSS
 |  |
