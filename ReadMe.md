@@ -44,6 +44,7 @@
 | [JavaScript: 判断一个元素是否出现在可视区域中](https://github.com/leslie1943/blog/issues/234). |
 | [JavaScript: 如何将浮点数点左边的数每三位添加一个逗号](https://github.com/leslie1943/blog/issues/235). |
 | [JavaScript: Reflect的静态方法及Reflect.apply](https://github.com/leslie1943/blog/issues/237). |
+| [JavaScript: 每间隔一秒输出](https://github.com/leslie1943/blog/issues/244). |
 <!-- | [JavaScript: ES6、ES7、ES8、ES9、ES10、ES11、ES12](https://github.com/leslie1943/blog/issues/237). | -->
 
 
@@ -218,7 +219,7 @@
 | [Vue: 动态绑定 class 样式](https://github.com/leslie1943/blog/issues/225). |
 | [Vue: 路由守卫 Router Guards](https://github.com/leslie1943/blog/issues/233). |
 | [Vue: 为什么Vue的虚拟DOM比React虚拟DOM性能好](https://github.com/leslie1943/blog/issues/238). |
-| [Vue: Vue3中的样式穿透 deep的使用](https://github.com/leslie1943/blog/issues/242). |
+| [Vue: Vue3中的样式穿透 deep的使用](https://github.com/leslie1943/blog/issues/243). |
 
 ## 🚀 React
 |  |
