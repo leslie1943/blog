@@ -45,7 +45,7 @@
 | [JavaScript: 如何将浮点数点左边的数每三位添加一个逗号](https://github.com/leslie1943/blog/issues/235). |
 | [JavaScript: Reflect的静态方法及Reflect.apply](https://github.com/leslie1943/blog/issues/237). |
 | [JavaScript: 每间隔一秒输出](https://github.com/leslie1943/blog/issues/244). |
-<!-- | [JavaScript: ES6、ES7、ES8、ES9、ES10、ES11、ES12](https://github.com/leslie1943/blog/issues/237). | -->
+<!-- | [JavaScript: ES6、ES7、ES8、ES9、ES10、ES11、ES12](https://github.com/leslie1943/blog/issues/xxx). | -->
 
 
 ## 🚀 JavaScript 异步编程
@@ -223,6 +223,7 @@
 | [Vue: Vue3中的样式穿透 deep的使用](https://github.com/leslie1943/blog/issues/243). |
 | [Vue: 文件夹static和assets的区别](https://github.com/leslie1943/blog/issues/245). |
 | [Vue: Vue3中 reactive 和 ref](https://github.com/leslie1943/blog/issues/247). |
+| [Vue: Vue3中常用的API - 1 - setup](https://github.com/leslie1943/blog/issues/249). |
 
 ## 🚀 React
 |  |
