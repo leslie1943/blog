@@ -224,6 +224,8 @@
 | [Vue: 文件夹static和assets的区别](https://github.com/leslie1943/blog/issues/245). |
 | [Vue: Vue3中 reactive 和 ref](https://github.com/leslie1943/blog/issues/247). |
 | [Vue: Vue3中常用的API - 1 - setup](https://github.com/leslie1943/blog/issues/249). |
+| [Vue: Vue3中常用的API - 2 - 生命周期](https://github.com/leslie1943/blog/issues/250). |
+| [Vue: Vue3中常用的API - 3 - reactive](https://github.com/leslie1943/blog/issues/251). |
 
 ## 🚀 React
 |  |
