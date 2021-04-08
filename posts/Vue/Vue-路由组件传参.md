@@ -68,3 +68,16 @@ export default {
 - 访问`/static`: `Hello world` => (显示指明 `props: { name: 'world' }`)
 - 访问`/dynamic/1`: `Hello 2022!` => (根据路由的值计算后得到props的值`)
 - 访问`/attrs`: `Hello [ 1, 2, 3, 4, 5, 6]!` => (显示指明 `props: { name: 'world' }`)
+
+### 总结
+- 使用路由传参的时候
+- 布尔模式: `props: true`: route.params 将会被设置为组件属性
+- 对象模式: `props: { newsletterPopup: false,name: 'leslie' }`
+- 函数模式: 创建一个函数返回`props`
+```js
+const router = new VueRouter({
+  routes: [
+    { path: '/search', component: SearchUser, props: (route) => ({ query: route.query.q }) }
+  ]
+})
+```
