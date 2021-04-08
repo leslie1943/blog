@@ -232,3 +232,8 @@ declare module '*.tsx' {
   # component: () => import('@/views/Login/index.tsx'),
 ```
 
+### 🚀 要从头开发一个Vue2.x的项目建议参考
+- [vue-app-base](https://github.com/leslie1943/vue-app-base)
+- 包含: `loader开发`,`plugin开发`,`Git hooks`,`eslint`格式化, `stylelint`CSS格式化
+- 包含: `webpack` 从零开始配置
+- 以及对一些配置的详细讲解 `markdown-files`
