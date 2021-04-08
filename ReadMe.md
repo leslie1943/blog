@@ -223,6 +223,7 @@
 | [Vue: 为什么Vue的虚拟DOM比React虚拟DOM性能好](https://github.com/leslie1943/blog/issues/238). |
 | [Vue: Vue3中的样式穿透 deep的使用](https://github.com/leslie1943/blog/issues/243). |
 | [Vue: 文件夹static和assets的区别](https://github.com/leslie1943/blog/issues/245). |
+| [Vue: 路由组件传参](https://github.com/leslie1943/blog/issues/256). |
 | [Vue: Vue3中 reactive 和 ref](https://github.com/leslie1943/blog/issues/247). |
 | [Vue: Vue3中常用的API - 1 - setup](https://github.com/leslie1943/blog/issues/249). |
 | [Vue: Vue3中常用的API - 2 - 生命周期](https://github.com/leslie1943/blog/issues/250). |

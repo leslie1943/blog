@@ -1,7 +1,7 @@
 ### Vue: 路由守卫 Router Guards
 
 #### 全局前置守卫
-- `router.beforeEach`
+- 
 - 1. to: Route: 即将要进入的目标 路由对象
 - 2. from: Route: 当前导航正要离开的路由
 - 3. next: Function: 一定要调用该方法来 resolve 这个钩子.执行效果依赖 next 方法的调用参数
