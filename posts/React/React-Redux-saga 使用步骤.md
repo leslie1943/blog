@@ -72,7 +72,7 @@ sagaMiddleware.run(rootSaga)
 
 ##  Redux + saga + redux-actions
 ## 1. 🚀 `define actions`
-## 2. 🚀 `bind actions in biz component` - connect(mapStateToProp, maoDispatchToProp)
+## 2. 🚀 `bind actions in biz component` - connect(mapStateToProp, mapDispatchToProp)
 ## 3. 🚀 `emit actions in biz component`
 ## 4. 🚀 `saga accepts and emit async action `
 ## 5. 🚀 `reducer accepts sync action from saga`
