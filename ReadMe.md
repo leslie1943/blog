@@ -232,7 +232,7 @@
 | [Vue: Vue3中常用的API - 4 - ref](https://github.com/leslie1943/blog/issues/252). |
 | [Vue: Vue3中常用的API - 5 - toRef](https://github.com/leslie1943/blog/issues/253). |
 | [Vue: Vue3中常用的API - 6 - toRefs](https://github.com/leslie1943/blog/issues/254). |
-| [Vue: Vue3中常用的API - 7 - toRefs](https://github.com/leslie1943/blog/issues/254). |
+| [Vue: Vue3中常用的API - 7 - shallowReactive](https://github.com/leslie1943/blog/issues/258). |
 
 ## 🚀 React
 |  |
