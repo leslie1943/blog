@@ -47,7 +47,7 @@
 - 而 `grid-auto-rows` 与 `grid-auto-columns` 就是专门用于指定隐式网格的宽高
 
 ### grid-column-start / grid-column-end / grid-row-start / grid-row-end
-- 制定王国项目所在的4个边框, 分别定位在哪个网格线, 从而指定项目的位置
+- 制定如网项目所在的4个边框, 分别定位在哪个网格线, 从而指定项目的位置
 - `grid-column-start` 属性: 左边框所在的垂直网格线
 - `grid-column-end` 属性: 右边框所在的垂直网格线
 - `grid-row-start` 属性: 上边框所在的水平网格线

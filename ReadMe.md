@@ -172,7 +172,7 @@
 | [CSS: @support calc @media](https://github.com/leslie1943/blog/issues/190). |
 | [CSS: 说说em,px,rem,vh,vw的区别](https://github.com/leslie1943/blog/issues/248). |
 | [CSS: Grid网格布局-1 基础属性](https://github.com/leslie1943/blog/issues/255). |
-| [CSS: Grid网格布局-2 justift/align](https://github.com/leslie1943/blog/issues/255). |
+| [CSS: Grid网格布局-2 justift/align](https://github.com/leslie1943/blog/issues/261). |
 | [CSS: flex 不是 display:flex-1](https://github.com/leslie1943/blog/issues/257). |
 | [CSS: flex 不是 display:flex-2](https://github.com/leslie1943/blog/issues/259). |
 
