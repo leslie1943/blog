@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-Grid grid-auto-flow</title>
+    <style>
+        .container-start {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: start;
+            align-items: start;
+        }
+
+        .container-end {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .container-center {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            font-size: 4em;
+            text-align: center;
+            border: 1px solid #e5e4e9;
+        }
+
+        .item-1 {
+            background-color: #ef342a;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item-2 {
+            background-color: #f68f26;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item-3 {
+            background-color: #4ba946;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .item-4 {
+            background-color: #0376c2;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .item-5 {
+            background-color: #c077af;
+        }
+
+        .item-6 {
+            background-color: #f8d29d;
+        }
+
+        .item-7 {
+            background-color: #b5a87f;
+        }
+
+        .item-8 {
+            background-color: #d0e4a9;
+        }
+
+        .item-9 {
+            background-color: #4dc7ec;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-start">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-9">9</div>
+    </div>
+
+</body>
+
+</html>
