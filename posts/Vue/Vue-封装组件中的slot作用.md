@@ -129,3 +129,6 @@ export default defineComponent({
 }
 </style>
 ```
+
+### 注意
+- vue3 已经不支持 `<template slot="other" slot-scope="props"></template>` 这种方式
