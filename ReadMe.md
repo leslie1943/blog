@@ -238,6 +238,7 @@
 | [Vue: Vue3中常用的API - 6 - toRefs](https://github.com/leslie1943/blog/issues/254). |
 | [Vue: Vue3中常用的API - 7 - shallowReactive](https://github.com/leslie1943/blog/issues/258). |
 | [Vue: Vue3中常用的API - 8 - shallowRef/triggerRef](https://github.com/leslie1943/blog/issues/260). |
+| [Vue: Vue3中常用的API - 8 - markRaw](https://github.com/leslie1943/blog/issues/264). |
 
 ## 🚀 React
 |  |
@@ -293,6 +294,7 @@
 |  |
 | ---- |
 | [Git: 60+ Git 常用命令行](https://github.com/leslie1943/blog/issues/80). |
+| [Git: 使用 Git Actions 部署项目](https://github.com/leslie1943/blog/issues/80). |
 
 ## 🚀 Babel
 |  |
