@@ -24,7 +24,19 @@
 <body>
     <div>
         Test content
+        <button id="test">测试</button>
     </div>
+    <script>
+        window.onload = () => {
+            setInterval(() => {
+                clickTest()
+            }, 5000)
+        }
+
+        function clickTest() {
+            console.info('click test')
+        }
+    </script>
 </body>
 
 </html>
