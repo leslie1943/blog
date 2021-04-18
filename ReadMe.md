@@ -241,6 +241,7 @@
 | [Vue: Vue3中常用的API - 8 - shallowRef/triggerRef](https://github.com/leslie1943/blog/issues/260). |
 | [Vue: Vue3中常用的API - 9 - markRaw](https://github.com/leslie1943/blog/issues/264). |
 | [Vue: Vue3中常用的API - 10 - toRaw](https://github.com/leslie1943/blog/issues/266). |
+| [Vue: Vue3中常用的API - 11 - provide&&inject](https://github.com/leslie1943/blog/issues/267). |
 
 ## 🚀 React
 |  |
