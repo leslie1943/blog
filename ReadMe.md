@@ -46,6 +46,7 @@
 | [JavaScript: Reflect的静态方法及Reflect.apply](https://github.com/leslie1943/blog/issues/237). |
 | [JavaScript: 每间隔一秒输出](https://github.com/leslie1943/blog/issues/244). |
 | [JavaScript: 优雅处理async-await, 避免每次try-catch](https://github.com/leslie1943/blog/issues/263). |
+| [JavaScript: 浅谈JS中的 递归 和 尾递归](https://github.com/leslie1943/blog/issues/269). |
 <!-- | [JavaScript: ES6、ES7、ES8、ES9、ES10、ES11、ES12](https://github.com/leslie1943/blog/issues/xxx). | -->
 
 
@@ -243,6 +244,7 @@
 | [Vue: Vue3中常用的API - 10 - toRaw](https://github.com/leslie1943/blog/issues/266). |
 | [Vue: Vue3中常用的API - 11 - provide&&inject](https://github.com/leslie1943/blog/issues/267). |
 | [Vue: Vue3中常用的API - 12 - watch && effect](https://github.com/leslie1943/blog/issues/268). |
+| [Vue: Vue3中常用的API - 13 - getCurrentInstance](https://github.com/leslie1943/blog/issues/270). |
 
 ## 🚀 React
 |  |
