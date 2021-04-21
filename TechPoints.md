@@ -237,3 +237,41 @@ declare module '*.tsx' {
 - 包含: `loader开发`,`plugin开发`,`Git hooks`,`eslint`格式化, `stylelint`CSS格式化
 - 包含: `webpack` 从零开始配置
 - 以及对一些配置的详细讲解 `markdown-files`
+
+### 🚀 使用 Yapi 管理接口
+- `github`: `https://github.com/YMFE/yapi`
+- 使用我们提供的 `yapi-cli` 工具, 部署 `YApi` 平台是非常容易的. 执行 `yapi server` 启动可视化部署程序, 输入相应的配置和点击开始部署, 就能完成整个网站的部署. 部署完成之后, 可按照提示信息, 执行 `node/{网站路径/server/app.js}` 启动服务器. 在浏览器打开指定 `url`, 点击登录输入您刚才设置的管理员邮箱, 默认密码为 `ymfe.org` 登录系统(默认密码可在个人中心修改). 
+- 如何部署YAPI[https://blog.csdn.net/Lb_fly0505/article/details/104670548]
+
+### 🚀 使用 Yapi - 1 - 本地搭建
+- 全局安装依赖: `npm install -g yapi-cli --registry https://registry.npm.taobao.org`
+- 启动数据库 `mongod --dbpath="C:\Leslie\MongoDB\data"`
+- 启动配置 `yapi server`: 访问: `http://localhost:9090`
+- 安装默认配置, 如果成功则出现
+```
+    部署日志
+    当前安装版本： 1.9.2
+    连接数据库成功!
+    开始下载平台文件压缩包...
+    http://registry.npm.taobao.org/yapi-vendor/download/yapi-vendor-1.9.2.tgz
+    部署文件完成, 正在安装依赖库...
+```
+
+### 🚀 使用 Yapi - 2 - 服务管理
+```
+    npm install pm2 -g  //安装pm2
+    cd {project_name}  C:\Users\leslie\my-yapi
+    pm2 start "vendors/server/app.js" --name yapi //pm2管理yapi服务
+    pm2 info yapi //查看服务信息
+    pm2 stop yapi //停止服务
+    pm2 restart yapi //重启服务
+```
+
+### 🚀 使用 Yapi - 3 - 服务管理
+- 访问 `http://127.0.0.1:3000/` 端口是步骤一设置的
+- 用户名: `admin@admin.com` (可在`MongoDB找到`)  密码: `ymfe.org` (默认密码)
+
+### 🚀 使用 Yapi - 4 - 扩展教程 chrome 安装 yapi 
+- chrome 安装 yapi 扩展教程[https://juejin.cn/post/6844904057707085832]
+- 使用 Edge 浏览器搜索 `cross-request` 添加扩展
+- YApi 新版如何查看 http 请求数据[https://juejin.cn/post/6844903795743260685]

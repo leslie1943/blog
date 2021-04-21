@@ -245,6 +245,7 @@
 | [Vue: Vue3中常用的API - 11 - provide&&inject](https://github.com/leslie1943/blog/issues/267). |
 | [Vue: Vue3中常用的API - 12 - watch && effect](https://github.com/leslie1943/blog/issues/268). |
 | [Vue: Vue3中常用的API - 13 - getCurrentInstance](https://github.com/leslie1943/blog/issues/270). |
+| [Vue: Vue3中常用的API - 14 - useStore](https://github.com/leslie1943/blog/issues/271). |
 
 ## 🚀 React
 |  |
