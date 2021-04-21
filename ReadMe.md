@@ -178,6 +178,7 @@
 | [CSS: flex 不是 display:flex-1](https://github.com/leslie1943/blog/issues/257). |
 | [CSS: flex 不是 display:flex-2](https://github.com/leslie1943/blog/issues/259). |
 | [CSS: 响应式设计-原理和实现](https://github.com/leslie1943/blog/issues/265). |
+| [CSS: 如何实现单行／多行文本溢出的省略样式](https://github.com/leslie1943/blog/issues/272). |
 
 ## 🚀 性能优化
 |  |

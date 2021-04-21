@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <style>
+        p {
+            position: relative;
+            width: 400px;
+            line-height: 20px;
+            overflow: hidden;
+        }
+
+        .p-after:after {
+            content: "...";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding-left: 40px;
+            background: -webkit-linear-gradient(left, transparent, #fff 55%);
+            background: -moz-linear-gradient(left, transparent, #fff 55%);
+            background: -o-linear-gradient(left, transparent, #fff 55%);
+            background: linear-gradient(to right, transparent, #fff 55%);
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+        这是一些文本这是一些文本这是一些文本这是一些文本这是一些文本
+    </p>
+    <script>
+        $(function () {
+            //获取文本的行高, 并获取文本的高度, 假设我们规定的行数是五行, 那么对超过行数的部分进行限制高度, 并加上省略号
+            $('p').each(function (i, obj) {
+                var lineHeight = parseInt($(this).css("line-height"));
+                var height = parseInt($(this).height());
+                if ((height / lineHeight) > 3) {
+                    $(this).addClass("p-after")
+                    $(this).css("height", "60px");
+                } else {
+                    $(this).removeClass("p-after");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
