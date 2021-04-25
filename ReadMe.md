@@ -234,7 +234,8 @@
 | [Vue: 路由组件传参](https://github.com/leslie1943/blog/issues/256). |
 | [Vue: 封装组件中的slot作用](https://github.com/leslie1943/blog/issues/261). |
 | [Vue: Vue3中 reactive 和 ref](https://github.com/leslie1943/blog/issues/247). |
-| [Vue: Vue3中常用的API - 1 - setup](https://github.com/leslie1943/blog/issues/249). |
+| [Vue: Vue3中常用的API - 1 - setup(1)](https://github.com/leslie1943/blog/issues/249). |
+| [Vue: Vue3中常用的API - 2 - setup(2)](https://github.com/leslie1943/blog/issues/277). |
 | [Vue: Vue3中常用的API - 2 - 生命周期](https://github.com/leslie1943/blog/issues/250). |
 | [Vue: Vue3中常用的API - 3 - reactive](https://github.com/leslie1943/blog/issues/251). |
 | [Vue: Vue3中常用的API - 4 - ref](https://github.com/leslie1943/blog/issues/252). |
@@ -249,6 +250,7 @@
 | [Vue: Vue3中常用的API - 13 - getCurrentInstance](https://github.com/leslie1943/blog/issues/270). |
 | [Vue: Vue3中常用的API - 14 - useStore](https://github.com/leslie1943/blog/issues/271). |
 | [Vue: Vue3中常用的API - 15 - 获取标签元素](https://github.com/leslie1943/blog/issues/274). |
+| [Vue: Vue3中常用的API - 16 - 组件传参v-model](https://github.com/leslie1943/blog/issues/276). |
 
 ## 🚀 React
 |  |

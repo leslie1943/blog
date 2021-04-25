@@ -1,4 +1,4 @@
-### Vue: Vue3中常用的API - 1 - setup
+### Vue-Vue3中常用的API - 1 - setup(1)
 - `setup`函数是 `Composition API`的入口函数,我们的变量方法都定义在该函数的定义里
 ```vue
 <template>
