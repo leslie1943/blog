@@ -253,6 +253,12 @@
 | [Vue: Vue3中常用的API - 15 - 获取标签元素](https://github.com/leslie1943/blog/issues/274). |
 | [Vue: Vue3中常用的API - 16 - 组件传参v-model](https://github.com/leslie1943/blog/issues/276). |
 
+## 🚀 Vue - vue-property-decorator
+|  |
+| ---- |
+| [vue-property-decorator -1- 定义变量和方法](https://github.com/leslie1943/blog/issues/279). |
+| [vue-property-decorator -2- 引用组件](https://github.com/leslie1943/blog/issues/280). |
+
 ## 🚀 React
 |  |
 | ---- |
