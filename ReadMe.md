@@ -258,6 +258,7 @@
 | ---- |
 | [vue-property-decorator -1- 定义变量和方法](https://github.com/leslie1943/blog/issues/279). |
 | [vue-property-decorator -2- 引用组件](https://github.com/leslie1943/blog/issues/280). |
+| [vue-property-decorator -3- Props](https://github.com/leslie1943/blog/issues/281). |
 
 ## 🚀 React
 |  |
