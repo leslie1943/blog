@@ -261,6 +261,7 @@
 | [vue-property-decorator -2- 引用组件](https://github.com/leslie1943/blog/issues/280). |
 | [vue-property-decorator -3- Prop](https://github.com/leslie1943/blog/issues/281). |
 | [vue-property-decorator -4- Model](https://github.com/leslie1943/blog/issues/284). |
+| [vue-property-decorator -5- Emit](https://github.com/leslie1943/blog/issues/285). |
 
 
 ## 🚀 React
