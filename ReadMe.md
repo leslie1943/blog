@@ -263,6 +263,7 @@
 | [vue-property-decorator -4- Model](https://github.com/leslie1943/blog/issues/284). |
 | [vue-property-decorator -5- Emit](https://github.com/leslie1943/blog/issues/285). |
 | [vue-property-decorator -6- Provide-Inject](https://github.com/leslie1943/blog/issues/286). |
+| [vue-property-decorator -7- Ref](https://github.com/leslie1943/blog/issues/287). |
 
 
 ## 🚀 React
