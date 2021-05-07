@@ -253,6 +253,8 @@
 | [Vue: Vue3中常用的API - 15 - 获取标签元素](https://github.com/leslie1943/blog/issues/274). |
 | [Vue: Vue3中常用的API - 16 - 组件传参v-model](https://github.com/leslie1943/blog/issues/276). |
 | [Vue: 组件上的 v-moel ](https://github.com/leslie1943/blog/issues/283). |
+| [Vue: Vue3中配置Vuex中State支持TS](https://github.com/leslie1943/blog/issues/288). |
+
 
 ## 🚀 Vue - vue-property-decorator
 |  |
