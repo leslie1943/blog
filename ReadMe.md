@@ -312,6 +312,7 @@
 | ---- |
 | [TypeScript: 数据类型/type/interface](https://github.com/leslie1943/blog/issues/62). |
 | [TypeScript: 如何理解泛型中的 <T>](https://github.com/leslie1943/blog/issues/183). |
+| [TypeScript: 如何在window对象上显示设置属性](https://github.com/leslie1943/blog/issues/289). |
 
 ## 🚀 API
 |  |
