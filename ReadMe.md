@@ -316,6 +316,9 @@
 | [TypeScript: 如何为对象动态分配属性](https://github.com/leslie1943/blog/issues/290). |
 | [TypeScript-泛型-1-概念,泛型接口和泛型类](https://github.com/leslie1943/blog/issues/291). |
 | [TypeScript-泛型-2-泛型约束](https://github.com/leslie1943/blog/issues/292). |
+| [TypeScript-泛型-3-泛型参数默认类型](https://github.com/leslie1943/blog/issues/293). |
+| [TypeScript-泛型-4-泛型条件类型](https://github.com/leslie1943/blog/issues/294). |
+| [TypeScript-泛型-5-泛型工具类型](https://github.com/leslie1943/blog/issues/295). |
 
 ## 🚀 API
 |  |
