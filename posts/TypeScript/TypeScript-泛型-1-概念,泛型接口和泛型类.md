@@ -1,4 +1,4 @@
-## TypeScript: 读懂 TypeScript 泛型及应用
+## TypeScript-泛型-1-概念,泛型接口和泛型类
 
 
 ### 🚀 泛型是什么?
