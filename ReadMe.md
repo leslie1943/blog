@@ -314,6 +314,7 @@
 | [TypeScript: 如何理解泛型中的 <T>](https://github.com/leslie1943/blog/issues/183). |
 | [TypeScript: 如何在window对象上显示设置属性](https://github.com/leslie1943/blog/issues/289). |
 | [TypeScript: 如何为对象动态分配属性](https://github.com/leslie1943/blog/issues/290). |
+| [TypeScript-泛型-1-概念,泛型接口和泛型类](https://github.com/leslie1943/blog/issues/291). |
 
 ## 🚀 API
 |  |
