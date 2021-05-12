@@ -319,6 +319,7 @@
 | [TypeScript-泛型-3-泛型参数默认类型](https://github.com/leslie1943/blog/issues/293). |
 | [TypeScript-泛型-4-泛型条件类型](https://github.com/leslie1943/blog/issues/294). |
 | [TypeScript-泛型-5-泛型工具类型](https://github.com/leslie1943/blog/issues/295). |
+| [TypeScript-装饰器-1-](https://github.com/leslie1943/blog/issues/296). |
 
 ## 🚀 API
 |  |
@@ -354,6 +355,7 @@
 | [Other: 什么是单点登录 sso ](https://github.com/leslie1943/blog/issues/239). |
 | [Other: 单点登录的代码实现 vue 为例 ](https://github.com/leslie1943/blog/issues/240). |
 | [Other: nrm 和 nvm ](https://github.com/leslie1943/blog/issues/275). |
+| [Other: 域名 + Nginx的配置,把IP转成域名访问](https://github.com/leslie1943/blog/issues/296). |
 
 
 ## 🚀 Node.js 

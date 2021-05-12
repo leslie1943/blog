@@ -55,3 +55,10 @@ interface User {
     sex: string
 }
 ```
+
+### 类型注解
+- 语法: 类型注解的语法由一个冒号`:`和某种具体类型`Type`组成,示例 `:Type`
+```ts
+// :string 就是  实体greeting 的类型注解
+const greeting: string = 'Hello World!'
+``` 
