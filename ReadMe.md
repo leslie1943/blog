@@ -319,8 +319,8 @@
 | [TypeScript-泛型-3-泛型参数默认类型](https://github.com/leslie1943/blog/issues/293). |
 | [TypeScript-泛型-4-泛型条件类型](https://github.com/leslie1943/blog/issues/294). |
 | [TypeScript-泛型-5-泛型工具类型](https://github.com/leslie1943/blog/issues/295). |
-<!-- | [TypeScript-装饰器-1-](https://github.com/leslie1943/blog/issues/296). | -->
-| [TypeScript-interfaces 与 type ](https://github.com/leslie1943/blog/issues/298). |
+| [TypeScript-interfaces 与 type](https://github.com/leslie1943/blog/issues/298). |
+| [TypeScript-理解函数重载的作用](https://github.com/leslie1943/blog/issues/299). |
 
 ## 🚀 API
 |  |
