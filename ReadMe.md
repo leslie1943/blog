@@ -323,6 +323,8 @@
 | [TypeScript-理解函数重载的作用](https://github.com/leslie1943/blog/issues/299). |
 | [TypeScript- xxx.d.ts 是干什么的?(shims-vue.d.ts)](https://github.com/leslie1943/blog/issues/300). |
 | [TypeScript- # 和 private 的区别](https://github.com/leslie1943/blog/issues/301). |
+| [TypeScript- TS中的函数类型](https://github.com/leslie1943/blog/issues/302). |
+| [TypeScript- TS中实现函数类型的两种方式](https://github.com/leslie1943/blog/issues/303). |
 ## 🚀 API
 |  |
 | ---- |
