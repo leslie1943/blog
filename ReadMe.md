@@ -325,6 +325,7 @@
 | [TypeScript- # 和 private 的区别](https://github.com/leslie1943/blog/issues/301). |
 | [TypeScript- TS中的函数类型](https://github.com/leslie1943/blog/issues/302). |
 | [TypeScript- TS中实现函数类型的两种方式](https://github.com/leslie1943/blog/issues/303). |
+| [TypeScript- TypeScript 装饰器](https://github.com/leslie1943/blog/issues/304). |
 ## 🚀 API
 |  |
 | ---- |
