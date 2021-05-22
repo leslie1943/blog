@@ -326,6 +326,7 @@
 | [TypeScript- TS中的函数类型](https://github.com/leslie1943/blog/issues/302). |
 | [TypeScript- TS中实现函数类型的两种方式](https://github.com/leslie1943/blog/issues/303). |
 | [TypeScript- TypeScript 装饰器](https://github.com/leslie1943/blog/issues/304). |
+| [TypeScript- 联合类型和类型别名](https://github.com/leslie1943/blog/issues/305). |
 ## 🚀 API
 |  |
 | ---- |
