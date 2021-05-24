@@ -327,6 +327,8 @@
 | [TypeScript- TS中实现函数类型的两种方式](https://github.com/leslie1943/blog/issues/303). |
 | [TypeScript- TypeScript 装饰器](https://github.com/leslie1943/blog/issues/304). |
 | [TypeScript- 联合类型和类型别名](https://github.com/leslie1943/blog/issues/305). |
+| [TypeScript- 构造函数中的super](https://github.com/leslie1943/blog/issues/306). |
+| [TypeScript- 抽象类,接口,类类型](https://github.com/leslie1943/blog/issues/307). |
 ## 🚀 API
 |  |
 | ---- |
